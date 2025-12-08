@@ -1,0 +1,1216 @@
+{
+  "stueck": "Dantons Tod",
+  "autor": "Georg Büchner",
+  "dateiname": "plot_dantons_tod.json",
+  "version": "plot_v1",
+  "erstellt_am": "2025-12-03",
+  "sprache": "de",
+  "beschreibung": "Grobstruktur der Handlung für szenische LLM-Aufführung (nur 1. Akt).",
+  "akte_overview": [
+    {
+      "akt": 1,
+      "titel": "Erster Akt",
+      "von_pos": "1.1",
+      "bis_pos": "1.6",
+      "szenen": [
+        {
+          "pos": "1.1",
+          "titel": "Spieltisch bei Hérault-Séchelles, Danton und Julie"
+        },
+        {
+          "pos": "1.2",
+          "titel": "Gasse mit Simon, seinem Weib und der Volksmenge"
+        },
+        {
+          "pos": "1.3",
+          "titel": "Jakobinerklub – Reden über Lyon und den Terror"
+        },
+        {
+          "pos": "1.4",
+          "titel": "Gasse – Lacroix warnt Legendre"
+        },
+        {
+          "pos": "1.5",
+          "titel": "Zimmer – Danton mit Marion, dann Lacroix, Adelaide, Rosalie"
+        },
+        {
+          "pos": "1.6",
+          "titel": "Zimmer Robespierres – Konfrontation mit Danton, dann St. Just"
+        }
+      ]
+    },
+    {
+      "akt": 2,
+      "titel": "Zweiter Akt",
+      "von_pos": "2.1",
+      "bis_pos": "2.7",
+      "szenen": [
+        {
+          "pos": "2.1",
+          "titel": "Zimmer – Danton, Freunde, Entschlusslosigkeit"
+        },
+        {
+          "pos": "2.2",
+          "titel": "Promenade – buntes Paris, Danton und Camille"
+        },
+        {
+          "pos": "2.3",
+          "titel": "Zimmer – Danton, Camille, Lucile; Verhaftungsbeschluss"
+        },
+        {
+          "pos": "2.4",
+          "titel": "Freies Feld – Dantons innerer Monolog"
+        },
+        {
+          "pos": "2.5",
+          "titel": "Zimmer – Nacht, Danton und Julie"
+        },
+        {
+          "pos": "2.6",
+          "titel": "Straße – Bürger suchen Danton"
+        },
+        {
+          "pos": "2.7",
+          "titel": "Nationalkonvent – Legendre vs. Robespierre"
+        }
+      ]
+    },
+    {
+      "akt": 3,
+      "titel": "Dritter Akt",
+      "von_pos": "3.1",
+      "bis_pos": "3.10",
+      "szenen": [
+        {
+          "pos": "3.1",
+          "titel": "Luxembourg – Gefangnensaal, Philosophie und Dantons Ankunft"
+        },
+        {
+          "pos": "3.2",
+          "titel": "Zimmer – Fouquier & Herman, Geschworenenauswahl"
+        },
+        {
+          "pos": "3.3",
+          "titel": "Conciergerie-Korridor – Danton bereut das Tribunal"
+        },
+        {
+          "pos": "3.4",
+          "titel": "Revolutionstribunal – Dantons Verteidigungsrede (Tag 1)"
+        },
+        {
+          "pos": "3.5",
+          "titel": "Luxembourg-Kerker – Dillon plant Aufstand, Laflotte verrät"
+        },
+        {
+          "pos": "3.6",
+          "titel": "Wohlfahrtsausschuss – St. Justs Bericht & Zynismus der Ausschüsse"
+        },
+        {
+          "pos": "3.7",
+          "titel": "Conciergerie – Todesangst & Nichts-Philosophie"
+        },
+        {
+          "pos": "3.8",
+          "titel": "Zimmer – Fouquier, Amar, Vouland, Kommissions-Trick"
+        },
+        {
+          "pos": "3.9",
+          "titel": "Revolutionstribunal – Dekret, Danton von Debatte ausgeschlossen"
+        },
+        {
+          "pos": "3.10",
+          "titel": "Platz vor dem Justizpalast – Volk kippt zu Robespierre"
+        }
+      ]
+    },
+    {
+      "akt": 4,
+      "titel": "Hinrichtung und Zerfall",
+      "kurzinhalt": "Letzte Nacht Dantons und Camilles in der Conciergerie; Julie nimmt sich das Leben, Danton und die Gefährten werden hingerichtet, Lucile verliert den Verstand und ruft 'Es lebe der König!', bevor auch sie verhaftet wird.",
+      "schwerpunkte": [
+        "Todesnähe und Körperlichkeit",
+        "Atheismus, Sinnsuche, Nihilismus",
+        "Privates Liebesdrama (Julie, Lucile) versus öffentlicher Terror",
+        "Zynismus der Revolutionäre und Abstumpfung des Volkes",
+        "Endgültiger Sieg der jakobinischen Diktatur – vorläufig"
+      ],
+      "von_pos": "4.1",
+      "bis_pos": "4.9",
+      "szenen": [
+        {
+          "pos": "4.1",
+          "titel": "Julie erfährt, dass Danton sterben wird; sie schickt einem Knaben eine Locke für"
+        },
+        {
+          "pos": "4.2",
+          "titel": "Ein Bürger stellt empört in Frage, wie so viele Unschuldige verurteilt werden ko"
+        },
+        {
+          "pos": "4.3",
+          "titel": "Die Männer versuchen, mit Witzen über ihre Körper und den Tod die Angst zu banne"
+        },
+        {
+          "pos": "4.4",
+          "titel": "Fuhrleute machen derbe Witze über ihren 'Beruf' als beste Fuhrleute zum Revoluti"
+        },
+        {
+          "pos": "4.5",
+          "titel": "Danton ruft zum sterbenden Fabre hinüber, macht einen Vers-Witz. Die Freunde ref"
+        },
+        {
+          "pos": "4.6",
+          "titel": "Julie nimmt Gift aus einer Phiole, tritt ans Fenster und betrachtet den Untergan"
+        },
+        {
+          "pos": "4.7",
+          "titel": "Die Wagen treffen ein, Volk tanzt Carmagnole, Gefangene singen Marseillaise. Wei"
+        },
+        {
+          "pos": "4.8",
+          "titel": "Lucile versucht gedanklich zu begreifen, dass der Strom des Lebens nicht für Cam"
+        },
+        {
+          "pos": "4.9",
+          "titel": "Die Henker reinigen die Guillotine, singen ein derbes Lied und gehen. Lucile set"
+        }
+      ]
+    }
+  ],
+  "szenen": [
+    {
+      "pos": "1.1",
+      "akt": 1,
+      "szene": 1,
+      "zug_schaetzung_basis": 30,
+      "zug_budget": 33,
+      "ort": "Salon / Spielzimmer bei Hérault-Séchelles in Paris; Spieltisch und Sitzplatz für Danton & Julie.",
+      "zeit": "Abend während der jakobinischen Schreckensherrschaft (nach einem Hinrichtungstag).",
+      "anwesende_figuren": [
+        "Hérault-Séchelles",
+        "einige Damen am Spieltisch",
+        "Danton",
+        "Julie",
+        "Camille Desmoulins",
+        "Philippeau"
+      ],
+      "wichtige_beziehungen_und_spannungen": "Intime, aber entfremdete Beziehung zwischen Danton und Julie; philosophische Melancholie vs. Julies Bedürfnis nach Bestätigung. Politische Spannung zwischen den lustbetonten, lebenszugewandten Dantonisten (Danton, Camille, Hérault) und der zunehmend moralistischen, asketischen Linie Robespierres und St. Justs, über die sie spöttisch sprechen. Unter Freunden: geteilte Müdigkeit und Zweifel an der Fortsetzung des Terrors.",
+      "handlungsablauf_kurz": "Im Rahmen eines Kartenspiels flirtet Danton mit Julie und spricht in morbiden, philosophischen Bildern über Liebe, Tod und die Unmöglichkeit wirklicher Nähe. Camille und Philippeau kommen hinzu; sie berichten von erneuten Hinrichtungen und diskutieren die politische Lage. Hérault und Camille entwerfen eine hedonistische, epikureische Republik, in der Recht und individuelles Genießen anstelle von Tugend und Strafe treten sollen. Danton bleibt skeptisch und fatalistisch und zieht sich aus der Runde zurück, nicht bereit, sich klar zu engagieren.",
+      "mikrostruktur_ereignisse": [
+        "Leichtes, doppeldeutiges Kartenspiel-Gespräch zwischen Hérault, Dame und Danton; Einführung des hedonistischen Tons.",
+        "Intimes, zugleich distanziertes Zwiegespräch zwischen Danton und Julie über Liebe, Grab, Einsamkeit und Nicht-Erkennbarkeit.",
+        "Ankunft von Camille und Philippeau; Bericht über neue Guillotinierungen und Zweifel an Motiven des Wohlfahrtsausschusses.",
+        "Hérault und Camille entwickeln programmatische Sätze zur 'Reorganisation' der Revolution hin zu Recht, Genuss und Individualität.",
+        "Danton reagiert mit Müdigkeit, Skepsis und fatalistischen Bemerkungen; er verabschiedet sich und deutet vage kommende Gefahren an."
+      ],
+      "status_vor_der_szene": "Danton und seine Freunde genießen ein relativ unbedroht wirkendes, halb privates, halb politisches Refugium. Die letzte Welle der Hinrichtungen (Hébertisten) liegt kurz zurück, doch konkrete Bedrohungen für Danton selbst sind noch nicht ausgesprochen.",
+      "aenderung_nach_der_szene": "Die Szene etabliert Dantons Lähmung und Lebensmüdigkeit als Grundton. Politisch formulieren seine Freunde bereits die Idee, dass die Revolution in eine Phase der Reorganisation eintreten müsse – eine offene Herausforderung an die Logik des fortgesetzten Schreckens. Dantons Rückzug am Ende markiert seine zunehmende Passivität vor der kommenden Konfrontation.",
+      "buehnenbild_cues": [
+        "Eleganter, aber etwas abgewohnter Salon; zentraler Spieltisch mit Karten, Stühlen, Lichtquelle (Kerzen/Luster).",
+        "Separate Sitzecke oder Sofa, auf dem Julie sitzt und Danton zu ihren Füßen; intimer Lichtkegel.",
+        "Kostüme der Oberschicht/gebildeten Schicht (Republikaner, aber noch 'fein'); Kontrast zwischen Leichtigkeit des Salons und angedeuteter äußeren Gewalt."
+      ]
+    },
+    {
+      "pos": "1.2",
+      "akt": 1,
+      "szene": 2,
+      "zug_schaetzung_basis": 26,
+      "zug_budget": 29,
+      "ort": "Enge Pariser Gasse in einem armen Viertel.",
+      "zeit": "Kurz nach den Ereignissen des Tages, vermutlich früher Abend; Übergang von privater Innenwelt zur aufgebrachten Straße.",
+      "anwesende_figuren": [
+        "Simon",
+        "Simons Weib",
+        "Erster Bürger",
+        "Zweiter Bürger",
+        "Dritter Bürger",
+        "Junger Mensch",
+        "Leute / Umstehende",
+        "Weiber",
+        "Robespierre",
+        "Ohnehosen / Volksmenge"
+      ],
+      "wichtige_beziehungen_und_spannungen": "Massive Klassen- und Geschlechterspannung: Simons Tochter prostituiert sich aus Not, während Simon zwischen patriarchaler Ehre und ökonomischer Abhängigkeit schwankt. Die Bürger artikulieren wachsenden Hass auf diejenigen, die von der Revolution profitieren, ohne selbst zu leiden. Die Masse steht zwischen blinder Lynchlust und politischer Instrumentalisierung durch Robespierre, der ihren Zorn in institutionelle Bahnen (Jakobinerklub) lenkt.",
+      "handlungsablauf_kurz": "Simon misshandelt seine Frau, weil die Tochter sich prostituiert, um die Familie zu ernähren. Die Nachbarn greifen ein, und eine grotesk-derbe Debatte über Moral, Hunger und Sexualität entfaltet sich. Die Bürger wenden den Fall zu einer generellen Anklage gegen die Reichen und vermeintlichen Profiteure der Revolution und sind bereit, einen zufälligen jungen Mann als 'Aristokraten' zu lynchen. Robespierre erscheint, beruhigt und umleitet den Zorn, indem er das Volk als tugendhaft lobt und es auffordert, im Jakobinerklub ein 'Blutgericht' über die Feinde abzuhalten.",
+      "mikrostruktur_ereignisse": [
+        "Simons Ausbruch gegen seine Frau; derb-poetische Beschimpfungen, körperliche Gewalt, Notruf des Weibes.",
+        "Zusammentrommeln der Nachbarschaft; Erklärung, dass die Tochter 'arbeitet', indem sie ihren Körper verkauft; zynisch-realistische Rechtfertigungen der Mutter.",
+        "Reden der Bürger über Ausbeutung, Hunger, ihre Rolle als Vollstrecker der Revolution und den fortgesetzten Mangel trotz getöteter Aristokraten.",
+        "Fast-Lynchmord an einem jungen Mann mit Schnupftuch als vermeintlichem Aristokraten; der Pöbel ruft nach der Laterne, der Mann entwischt knapp.",
+        "Einzug Robespierres mit Anhängern; ideologische Einrahmung des Volkszorns und Umlenkung des Mobs in Richtung Jakobinerklub."
+      ],
+      "status_vor_der_szene": "Auf der Straße herrscht diffuse soziale Not, aber der Zorn ist noch nicht in eine klar politische Richtung kanalisiert. Die Gewalt der Revolution wurde bisher vor allem gegen alte Eliten gerichtet; die alltägliche Armut bleibt bestehen.",
+      "aenderung_nach_der_szene": "Die Volkswut erhält eine unmittelbare politische Adresse: über Robespierre wird sie an die Institution der Jakobiner gebunden und gegen 'innere Feinde' im Allgemeinen gerichtet. Die Szene zeigt, wie der Terror durch die Verbindung von sozialer Not und moralisch-politischer Rhetorik erneut legitimiert und verschärft werden kann.",
+      "buehnenbild_cues": [
+        "Schmale Gasse mit Hauseingängen, groben Mauern, eventuell Laterne, einfache Requisiten (Fass, Treppe, Türschwellen).",
+        "Arme Kleidung der Figuren; Kontrast zwischen schmutziger, chaotischer Straße und späterer Ordnung, die Robespierre durch seinen Auftritt stiftet.",
+        "Möglichkeit, die Masse flexibel zu stellen: enges Gedränge, Laternenzug, Ruf nach der Guillotine."
+      ]
+    },
+    {
+      "pos": "1.3",
+      "akt": 1,
+      "szene": 3,
+      "zug_schaetzung_basis": 40,
+      "zug_budget": 43,
+      "ort": "Saal des Jakobinerklubs in Paris; Tribüne, Bänke für die Mitglieder.",
+      "zeit": "Unmittelbar nach dem Zusammenruf der Volksmassen durch Robespierre; derselbe Abend.",
+      "anwesende_figuren": [
+        "Ein Lyoner (Gesandter)",
+        "Jakobiner / Klubmitglieder",
+        "Legendre",
+        "Collot d'Herbois",
+        "Robespierre",
+        "Präsident des Klubs",
+        "Versammlung / Stimmen aus dem Plenum"
+      ],
+      "wichtige_beziehungen_und_spannungen": "Konflikt zwischen radikalen Provinz-Jakobinern (Lyon) und Pariser Führung über die Konsequenzen des Terrors in den Departements. Innerhalb des Klubs zeichnen sich Linien zwischen unterschiedlichen Härtegraden ab, die Robespierre in seiner großen Rede zu einer Doktrin der 'Tugend und des Schreckens' zusammenzieht. Legendre stellt Fragen, Collot und Robespierre verwandeln sie in eine Anklage gegen latente 'Mäßigung' und 'Barmherzigkeit'.",
+      "handlungsablauf_kurz": "Ein Gesandter aus Lyon klagt an, dass nach der Hinrichtung Ronsins die Feinde Chaliers wieder erstarken. Er fordert unerbittliche Strenge und mehr Blut. Legendre berichtet von Spott über die Märtyrer Marat und Chalier und ruft den Wohlfahrtsausschuss zur Ordnung; Collot d'Herbois dreht die Kritik und beschuldigt jene, die Zweifel säen. Robespierre hält eine lange programmatische Rede, in der er zwei Fraktionen von Feinden der Republik zeichnet (die 'Atheisten/Ultrarevolutionäre' und die 'Gemäßigten') und den Terror als notwendige Waffe der Tugend definiert. Die Versammlung jubelt, und die Linie der Revolutionsregierung als 'Despotismus der Freiheit gegen die Tyrannei' wird zementiert.",
+      "mikrostruktur_ereignisse": [
+        "Rede des Lyoners: Klage über unvollständige Vergeltung, Forderung nach radikaler Bestrafung der Verräter von Lyon.",
+        "Legendre warnt vor öffentlicher Entweihung der Märtyrerbüsten (Marat/Chalier) und stellt die Passivität des Wohlfahrtsausschusses infrage.",
+        "Collot d'Herbois beschuldigt die Kritiker selbst der Unterminierung und kündigt an, dass die Büsten 'Medusenhäupter' gegen Verräter bleiben.",
+        "Große Rede Robespierres: Analyse der zwei Faktionen, Rechtfertigung des Schreckens, Aufbau einer moralisch-politischen Doktrin.",
+        "Schluss: Zustimmung der Versammlung, Rufe für Robespierre, Aufhebung der Sitzung – ideologische Vorbereitung des Angriffs auf die Dantonisten."
+      ],
+      "status_vor_der_szene": "Nach der Beseitigung der Hébertisten ist die Richtung der Revolution unklarer geworden; ein Teil der Bewegung empfindet ein Nachlassen der 'Energie' und fürchtet Konterrevolution.",
+      "aenderung_nach_der_szene": "Robespierres Rede markiert eine ideologische Neujustierung: Der Terror wird ausdrücklich als Ausdruck der Tugend festgeschrieben. Damit werden Mäßigung und Barmherzigkeit politisch verdächtig gemacht – die Grundlage für die spätere Verfolgung Dantons und seiner Freunde. Die Szene schafft das argumentative Fundament, um 'Indulgenten' als Feinde zu brandmarken.",
+      "buehnenbild_cues": [
+        "Holzvertäfelter Klubsaal oder kahler Versammlungssaal mit Podium/Tribüne, Pult und Bänken.",
+        "Porträts/Büsten von Marat und Chalier sichtbar; Jakobiner-Symbole, Fahnen.",
+        "Dichte, laute Menge, die Zwischenrufe und Beifall erzeugt; Licht auf Rednerpult, eher dunkler Hintergrund."
+      ]
+    },
+    {
+      "pos": "1.4",
+      "akt": 1,
+      "szene": 4,
+      "zug_schaetzung_basis": 18,
+      "zug_budget": 21,
+      "ort": "Gasse oder Straße in Paris, auf dem Weg vom Jakobinerklub.",
+      "zeit": "Direkt nach der Klub-Sitzung, später Abend.",
+      "anwesende_figuren": [
+        "Lacroix",
+        "Legendre"
+      ],
+      "wichtige_beziehungen_und_spannungen": "Politische Spannung zwischen Lacroix, der die Gefahr hellsichtig erkennt, und Legendre, der naiv oder trotzig bleibt. Beide gehören zum Umfeld Dantons, doch ihr Risikobewusstsein ist unterschiedlich. Im Hintergrund: wachsender Gegensatz zwischen Dantonisten und dem Wohlfahrtsausschuss.",
+      "handlungsablauf_kurz": "Lacroix stellt Legendre zur Rede: Mit seiner Rede über die Büsten habe er den Wohlfahrtsausschuss gezwungen, Farbe zu bekennen und den Druck zu erhöhen. Er deutet Robespierres Anspielungen als Vorboten eines Angriffs auf die 'Gemäßigten' und macht klar, dass der Terror weiter steigen müsse, um die Revolution zu stabilisieren. Die Metapher vom Volk als Minotaurus, der regelmäßig Opfer braucht, bereitet den Gedanken vor, dass ein großer Kopf – Danton – als nächstes geopfert werden könnte. Sie beschließen, Danton im Palais-Royal aufzusuchen.",
+      "mikrostruktur_ereignisse": [
+        "Lacroix konfrontiert Legendre mit den Folgen seiner Intervention im Klub und erklärt ihm, wen er eigentlich angegriffen hat.",
+        "Auslegung der Logik des Terrors: der 'Guillotinenthermometer' darf nicht fallen, das Volk braucht ständig neue Opfer.",
+        "Entschluss, Danton zu informieren und ins Palais-Royal zu gehen."
+      ],
+      "status_vor_der_szene": "Die Warnzeichen aus dem Jakobinerklub sind frisch, aber noch nicht in konkrete Maßnahmen gegen Danton umgesetzt. Legendre nimmt seine eigene Rolle nicht ernst genug.",
+      "aenderung_nach_der_szene": "Die Bedrohung für Danton wird im Kreis seiner Freunde klar ausgesprochen. Lacroix wird zum Überbringer der schlechten Nachricht und Bindeglied zwischen Klub und Dantons Privatwelt.",
+      "buehnenbild_cues": [
+        "Einfaches Straßenbild, vielleicht derselbe Gassenraum wie in 1.2, aber nun leerer und dunkler.",
+        "Zwei Männer im Gespräch, Bewegung auf der Bühne möglich (Geh-Szene, Auf- und Abgehen).",
+        "Licht betont die Intimität/Vertraulichkeit des politischen Gesprächs in der Öffentlichkeit."
+      ]
+    },
+    {
+      "pos": "1.5",
+      "akt": 1,
+      "szene": 5,
+      "zug_schaetzung_basis": 32,
+      "zug_budget": 35,
+      "ort": "Privates Zimmer/Dantons Wohnung; Bett oder Ruhelager für Marion, Sitzgelegenheit für Danton.",
+      "zeit": "Später Abend desselben Tages; Gegenpol zur politischen Öffentlichkeit.",
+      "anwesende_figuren": [
+        "Danton",
+        "Marion",
+        "Lacroix",
+        "Adelaide",
+        "Rosalie"
+      ],
+      "wichtige_beziehungen_und_spannungen": "Zwischen Danton und Marion: Mischung aus lustvoller Nähe und existenzieller Müdigkeit – Dantons Bedürfnis nach Auflösung im Genuss kontrastiert mit Marions stolzer, radikal-hedonistischer Selbstbeschreibung. Zwischen Danton/Lacroix und der Außenwelt: Lacroix bringt die politische Krise ins Bordellartige Schutzinnere und stört die intime Szene. Unter den Freunden: Streit zwischen hedonistischer Lebenshaltung und der Notwendigkeit, politisch zu handeln.",
+      "handlungsablauf_kurz": "Danton und Marion sind in einer intensiven, erotisch-philosophischen Szene, in der Marion ihre Biographie und ihre Haltung zur Sexualität erzählt. Ihre Geschichte verbindet persönliche Tragik (der liebende junge Mann, der sich ertränkt) mit einer radikalen Gleichsetzung von Genuss und Frömmigkeit. Lacroix platzt mit zwei Prostituierten (Adelaide, Rosalie) herein; es entsteht ein zynisch-witziges, zugleich bitteres Gespräch über Körper, Krankheit und Moral. Lacroix berichtet von den Vorgängen im Jakobinerklub und warnt vor Robespierres Linie. Danton bleibt ambivalent: er erkennt die Gefahr, setzt aber auf seinen Namen und glaubt nicht recht an die Konsequenz der anderen. Die Szene endet mit seiner Entscheidung, erst am nächsten Tag mit Robespierre zu sprechen – ein weiteres Aufschieben.",
+      "mikrostruktur_ereignisse": [
+        "Intime Zweisamkeit Danton–Marion; Marions längere Erzählung über Erziehung, Sexualität, Liebhaber und gesellschaftliche Ächtung.",
+        "Einbruch von Lacroix und den beiden Prostituierten; doppelbödige Witze über Körper, Krankheit, religiöse Bilder und 'Barmherzige Schwestern'.",
+        "Bericht Lacroix' über die Jakobiner-Sitzung, über Legendre und Robespierres Worte; konkrete Warnung vor drohendem Schlag.",
+        "Dantons Hin- und Hergerissensein zwischen Lust und Politik; Entscheidung, (nur) 'morgen' mit Robespierre zu reden; zynischer Kommentar Lacroix'."
+      ],
+      "status_vor_der_szene": "Danton hat die politische Gefahr vor allem als abstraktes Risiko wahrgenommen und sich in eine Welt des Genusses zurückgezogen. Seine Privatwelt scheint noch Schutz vor der brutalen Öffentlichkeit zu bieten.",
+      "aenderung_nach_der_szene": "Die Grenze zwischen privatem Genussraum und politischer Lage durchlässig: Die Bedrohung wird mitten im Lustzimmer ausgesprochen. Dantons Zögern, aktiv zu werden, wird deutlich als gefährliche Untätigkeit markiert. Sein 'Morgen' legt die Tragik des zu späten Handelns an.",
+      "buehnenbild_cues": [
+        "Intimer, leicht überladener Raum: Bett oder Diwan, Textilien, weicheres Licht, das Körperlichkeit betont.",
+        "Möglichkeit, den Raum kurzzeitig zur 'Bühne' für die Prostituierten zu machen (Überzeichnung, Komik).",
+        "Kontrast: Lacroix als bringer politischer Nachrichten in diesem erotisierten Setting; Kostüme entsprechend (Marion/Prostituierte freizügiger, Danton halb gelöst, Lacroix 'von draußen')."
+      ]
+    },
+    {
+      "pos": "1.6",
+      "akt": 1,
+      "szene": 6,
+      "zug_schaetzung_basis": 45,
+      "zug_budget": 48,
+      "ort": "Robespierres Zimmer/Arbeitsraum; Schreibtisch, Fenster, später Verdunkelung.",
+      "zeit": "Noch derselbe Nacht/folgender früher Morgen; zeitlich direkt im Anschluss an Dantons Entschluss, Robespierre aufzusuchen.",
+      "anwesende_figuren": [
+        "Robespierre",
+        "Danton",
+        "Paris",
+        "St. Just",
+        "Dienerin (kurz, Lichtbringung)"
+      ],
+      "wichtige_beziehungen_und_spannungen": "Frontale ideologische Konfrontation zwischen Danton und Robespierre: Epikureische, fatalistische Lebensphilosophie vs. asketische Tugend- und Terrorethik. Robespierre sieht sich als Bewahrer der Revolution, Danton als einer, der das Töten beenden will. Zwischen Robespierre und St. Just: Komplizenschaft und gegenseitige Radikalisierung. Innerer Zwiespalt Robespierres zwischen politischer Notwendigkeit und persönlicher Unsicherheit (Monologe).",
+      "handlungsablauf_kurz": "Danton besucht Robespierre und versucht, ihn davon zu überzeugen, dass die Zeit des Tötens vorbei sei. Er attackiert Robespierres Moralbegriff und verhöhnt dessen Tugend als bürgerliche Rechtschaffenheit. Robespierre beharrt darauf, dass die 'soziale Revolution' nicht vollendet sei und dass Tugend durch Schrecken herrschen müsse. Nach Dantons Abgang ringt Robespierre in einem Monolog mit seiner Entscheidung und den Gedanken, Danton müsse fallen. St. Just tritt ein, drängt zur Tat und legt eine Liste der zu Stürzenden vor (Lacroix, Hérault, Philippeau, Camille). Robespierre liest Passagen aus Camilles Schrift ('Der alte Franziskaner') und erkennt die persönliche Beleidigung. Gemeinsam beschließen sie, gegen die 'Indulgenten' vorzugehen; Robespierre bleibt am Ende allein zurück, sich selbst als Opfer und Vollstrecker der Revolution wahrnehmend.",
+      "mikrostruktur_ereignisse": [
+        "Dialog Danton–Robespierre: Streit über Notwehr vs. Mord, Tugend vs. Laster, individuelle Moral vs. staatliche Strafe.",
+        "Dantons provokante Dekonstruktion von Robespierres 'Rechtschaffenheit'; Robespierres Beharren auf der Notwendigkeit des Schreckens.",
+        "Kurze Szene mit Paris, in der Danton zum Handeln drängt ('Wir dürfen keinen Augenblick verlieren').",
+        "Robespierres monologisches Grübeln am Fenster: Reflexion über Traum/Wachen, Schuld, Notwendigkeit und den Schatten Dantons.",
+        "Eintritt St. Justs; Analyse der öffentlichen Wirkung Dantons, Forderung nach entschlossenem Angriff.",
+        "Vorlesen aus Camilles Schrift; persönliche Kränkung und politische Schlussfolgerung, die Liste der zu Stürzenden wird konkret.",
+        "Abschließender Monolog Robespierres: Selbststilisierung als Blutmessias, Einsamkeit, aber Entschluss zur Eliminierung Dantons."
+      ],
+      "status_vor_der_szene": "Dantons Lager ist bedroht, aber es gibt noch Spielraum für Verständigung; der Konflikt hat eine persönliche und ideologische Ebene, aber noch keine formalisierte Anklage.",
+      "aenderung_nach_der_szene": "Nach dieser Szene ist der Entschluss zur Vernichtung Dantons und seiner Freunde faktisch gefallen. Die ideologische Linie aus dem Jakobinerklub wird in konkrete Verschwörung übersetzt. Der private Bruch zwischen Danton und Robespierre ist endgültig; der Weg zum Prozess ist programmiert.",
+      "buehnenbild_cues": [
+        "Karger Arbeitsraum mit Tisch, Papieren, Schreibutensilien; Fenster, an dem Robespierre monologisiert.",
+        "Lichtdramaturgie: zunächst gedämpft, dann Licht durch Dienerin; später kann das Licht für die Monologe wieder reduziert werden.",
+        "St. Just als dunkle Ergänzungsfigur, fast 'Engel des Todes'; Möglichkeit, die Liste und Pamphlet sichtbar als Requisit einzusetzen."
+      ]
+    },
+    {
+      "pos": "2.1",
+      "akt": 2,
+      "szene": 1,
+      "zug_schaetzung_basis": 34,
+      "zug_budget": 37,
+      "ort": "Dantons Zimmer, Morgendämmerung",
+      "zeit": "Morgen des Verhaftungstages",
+      "anwesende_figuren": [
+        "Danton",
+        "Camille",
+        "Lacroix",
+        "Philippeau",
+        "Paris"
+      ],
+      "wichtige_beziehungen_und_spannungen": "Danton lethargisch; Freunde panisch; politische Todesgefahr steigt.",
+      "handlungsablauf_kurz": "Freunde drängen Danton zur Aktion; er bleibt fatalistisch; glaubt an seine Unantastbarkeit.",
+      "mikrostruktur_ereignisse": [
+        "Camille drängt zur Eile.",
+        "Danton philosophiert über Müdigkeit und Sinnlosigkeit.",
+        "Lacroix fordert Aufruf an Sektionen.",
+        "Danton verweigert Kampfbereitschaft.",
+        "Danton verlässt das Zimmer – symbolischer Rückzug."
+      ],
+      "status_vor_der_szene": "Bedrohung konkret, aber Hoffnung auf Rettung vorhanden.",
+      "aenderung_nach_der_szene": "Dantons Passivität besiegelt Scheitern politischer Gegenwehr.",
+      "buehnenbild_cues": [
+        "Kahler Raum, Ankleideszene, nervöse Freunde."
+      ]
+    },
+    {
+      "pos": "2.2",
+      "akt": 2,
+      "szene": 2,
+      "zug_schaetzung_basis": 22,
+      "zug_budget": 25,
+      "ort": "Promenade im Park",
+      "zeit": "Mittag",
+      "anwesende_figuren": [
+        "Spaziergänger",
+        "Simon",
+        "Bürger",
+        "Bettler",
+        "Rosalie",
+        "Soldat",
+        "Danton",
+        "Camille"
+      ],
+      "wichtige_beziehungen_und_spannungen": "Paris als brodelndes, widersprüchliches Leben; Danton spürt Erotik und Absurdität.",
+      "handlungsablauf_kurz": "Vignetten: Bürger, Soldaten, Prostituierte; Danton und Camille wandern durch überbordende Sinnlichkeit.",
+      "mikrostruktur_ereignisse": [
+        "Namensfindung des Bürgers – politische Ironie.",
+        "Bettler-Szene – Philosophie der Faulheit.",
+        "Soldaten und Rosalie – frivole Sticheleien.",
+        "Dantons erotische Übersteigerung.",
+        "Kontrast: bourgeoises Paar vs. Dantons nihilistischer Blick."
+      ],
+      "status_vor_der_szene": "Nach Szene 2.1 noch Hoffnung und Bewegung.",
+      "aenderung_nach_der_szene": "Atmosphäre des 'letzten Tages'; Dantons Todesahnung wächst.",
+      "buehnenbild_cues": [
+        "Parkbäume, Lichtwechsel, Flanierende, mehrere Mini-Orte."
+      ]
+    },
+    {
+      "pos": "2.3",
+      "akt": 2,
+      "szene": 3,
+      "zug_schaetzung_basis": 28,
+      "zug_budget": 31,
+      "ort": "Zimmer – Camilles Wohnung",
+      "zeit": "Nachmittag",
+      "anwesende_figuren": [
+        "Danton",
+        "Camille",
+        "Lucile"
+      ],
+      "wichtige_beziehungen_und_spannungen": "Luciles Angst; Camille zwischen Loyalität und politischer Blindheit.",
+      "handlungsablauf_kurz": "Danton erhält Nachricht der Verhaftung; lehnt Flucht ab; Luciles Verzweiflung.",
+      "mikrostruktur_ereignisse": [
+        "Camilles Kunsttheorie-Monolog.",
+        "Danton wird hinausgerufen – Nachricht der Verhaftung.",
+        "Danton: Resignation statt Widerstand.",
+        "Lucile in wachsender Panik.",
+        "Camille sucht Robespierre."
+      ],
+      "status_vor_der_szene": "Danton noch frei; Camille vertraut noch auf Robespierre.",
+      "aenderung_nach_der_szene": "Entscheidender Wendepunkt: Verhaftungsbeschluss offiziell.",
+      "buehnenbild_cues": [
+        "Wohnraum, Familienintimität, offene Fenster."
+      ]
+    },
+    {
+      "pos": "2.4",
+      "akt": 2,
+      "szene": 4,
+      "zug_schaetzung_basis": 14,
+      "zug_budget": 17,
+      "ort": "Freies Feld",
+      "zeit": "Abend",
+      "anwesende_figuren": [
+        "Danton"
+      ],
+      "wichtige_beziehungen_und_spannungen": "Dantons innerer Kampf: Vergessen vs Erinnerung.",
+      "handlungsablauf_kurz": "Monolog: Danton sucht Stille, schwankt zwischen Todessehnsucht und Trotz; kehrt doch zurück.",
+      "mikrostruktur_ereignisse": [
+        "Gedächtnismetapher.",
+        "Philosophische Zweifel.",
+        "Versuch der Selbstberuhigung.",
+        "'Sie werden’s nicht wagen!'"
+      ],
+      "status_vor_der_szene": "Danton noch unentschlossen.",
+      "aenderung_nach_der_szene": "Entscheidung bleibt aus – Tragik vollendet sich.",
+      "buehnenbild_cues": [
+        "Minimalistische Bühne, Windgeräusche, Einsamkeit."
+      ]
+    },
+    {
+      "pos": "2.5",
+      "akt": 2,
+      "szene": 5,
+      "zug_schaetzung_basis": 30,
+      "zug_budget": 33,
+      "ort": "Dantons Schlafzimmer",
+      "zeit": "Nacht",
+      "anwesende_figuren": [
+        "Danton",
+        "Julie"
+      ],
+      "wichtige_beziehungen_und_spannungen": "Julie als emotionales Zentrum; Danton mit Schuld und Wahn.",
+      "handlungsablauf_kurz": "Danton halluziniert Septembermorde; Julie versucht zu halten.",
+      "mikrostruktur_ereignisse": [
+        "Dantons nächtlicher Ruf.",
+        "Septembervision.",
+        "Diskussion über Notwehr und Schuld.",
+        "Julie stabilisiert ihn.",
+        "Schlaf-/Trostmoment."
+      ],
+      "status_vor_der_szene": "Vorher: Danton noch rational.",
+      "aenderung_nach_der_szene": "Nachher: klare Zeichen von Zusammenbruch.",
+      "buehnenbild_cues": [
+        "Dunkler Raum, Mondlicht, Fenster."
+      ]
+    },
+    {
+      "pos": "2.6",
+      "akt": 2,
+      "szene": 6,
+      "zug_schaetzung_basis": 15,
+      "zug_budget": 18,
+      "ort": "Straße vor Dantons Haus",
+      "zeit": "späte Nacht",
+      "anwesende_figuren": [
+        "Simon",
+        "Bürgersoldaten"
+      ],
+      "wichtige_beziehungen_und_spannungen": "Miliz wird zu Werkzeug des Staates.",
+      "handlungsablauf_kurz": "Bürgersoldaten machen sich über Pflicht lustig; Simon ruft Pathos; Aufbruch zur Verhaftung.",
+      "mikrostruktur_ereignisse": [
+        "Spott über Vaterlands-Rhetorik.",
+        "Simon kommandiert.",
+        "Einbruch in Dantons Haus."
+      ],
+      "status_vor_der_szene": "Befehlslage noch unklar.",
+      "aenderung_nach_der_szene": "Danton ist nun de facto verloren.",
+      "buehnenbild_cues": [
+        "Dunkle Gasse, Laterne, Sammelpunkt."
+      ]
+    },
+    {
+      "pos": "2.7",
+      "akt": 2,
+      "szene": 7,
+      "zug_schaetzung_basis": 38,
+      "zug_budget": 41,
+      "ort": "Nationalkonvent",
+      "zeit": "Morgen danach",
+      "anwesende_figuren": [
+        "Legendre",
+        "Robespierre",
+        "St. Just",
+        "Deputierte"
+      ],
+      "wichtige_beziehungen_und_spannungen": "Legendre versucht Rettung; Robespierre vernichtet ihn rhetorisch.",
+      "handlungsablauf_kurz": "Konvent debattiert Ob Anhörung Dantons; Robespierre triumphiert; St. Just legitimiert Blut philosophisch.",
+      "mikrostruktur_ereignisse": [
+        "Legendre fordert Anhörung.",
+        "Gegenrufe.",
+        "Robespierres große Gegenrede.",
+        "St. Justs metaphysisch-blutige Legitimation.",
+        "Abstimmungsähnliche Zustimmung."
+      ],
+      "status_vor_der_szene": "Ein letzter Hoffnungsschimmer.",
+      "aenderung_nach_der_szene": "Hoffnung zerstört; Weg zur Guillotine offen.",
+      "buehnenbild_cues": [
+        "Tribüne, dichtes Plenum, große Reden."
+      ]
+    },
+    {
+      "pos": "3.1",
+      "akt": 3,
+      "szene": 1,
+      "zug_schaetzung_basis": 32,
+      "zug_budget": 35,
+      "ort": "Luxembourg – großer Saal mit vielen Gefangenen, Bänken, improvisierten Lagerstellen.",
+      "zeit": "Tag, kurz nach Dantons Verhaftung.",
+      "anwesende_figuren": [
+        "Chaumette",
+        "Payne",
+        "Mercier",
+        "Hérault-Séchelles",
+        "andere Gefangene",
+        "Danton",
+        "Lacroix",
+        "Camille",
+        "Philippeau"
+      ],
+      "wichtige_beziehungen_und_spannungen": "Philosophische Atheismus-Debatte entlarvt religiöse und moralische Rechtfertigungen; die Ankunft Dantons und seiner Freunde verschiebt den Schwerpunkt von Theorie zu konkreter Todesnähe.",
+      "handlungsablauf_kurz": "Payne und Mercier diskutieren mit Chaumette die Existenz Gottes und die Logik von Leid und Moral. Hérault spottet und dreht die Argumente ins Paradoxe. In diese intellektuelle, fast salonartige Atmosphäre platzt die Ankunft der verhafteten Dantonisten; Hérault begrüßt Danton herzlich. Danton reagiert lakonisch auf sein Todesurteil, Gefangene adressieren ihn als gefallenen Volkshelden und werfen ihm wie Camille die Verantwortung für den Terror und die Opfer der Zweiundzwanzig vor. Die Szene endet in bitterer Solidarität und Resignation.",
+      "mikrostruktur_ereignisse": [
+        "Chaumette bittet Payne um 'Beweise' für seinen Atheismus; Payne entwickelt eine rationalistische Anti-Schöpfungs-Argumentation.",
+        "Mercier drängt die Argumentation weiter und stellt Grundsatzfragen zu Ursache, Vollkommenheit und Gottesbild.",
+        "Hérault kommentiert zynisch und macht sich über Chaumettes mögliche Rückfälle in Frömmigkeit lustig.",
+        "Danton, Lacroix, Camille und Philippeau werden als neue Gefangene hereingeführt; Hérault umarmt Danton.",
+        "Gefangene konfrontieren die Neuankömmlinge mit politischer Bilanz (Blut der Girondisten, September, Terror).",
+        "Camille spricht verzweifelt über sein Schicksal und Lucile; Danton hält an seiner Pose der Gelassenheit fest."
+      ],
+      "status_vor_der_szene": "Der Akt beginnt mit einem bereits dichten Gefängnissystem, in dem politische Gefangene auf ihren Prozess warten; die philosophische Diskussion wirkt wie Fluchtversuch vor der konkreten Bedrohung.",
+      "aenderung_nach_der_szene": "Die Revolution frisst nun sichtbar ihre ehemals wichtigsten Funktionsträger; die philosophische Abstraktion wird von der Härte der Hinrichtungsdrohung überlagert, die Gefangenen bilden eine Schicksalsgemeinschaft.",
+      "buehnenbild_cues": [
+        "Großer, schwerer Saal mit Gittern, hoher Decke, spärlichem Licht; Lager aus Stroh, ein paar Bänke und Tische.",
+        "Viele Statisten als Gefangene, die zuhören, sich drängen, reagieren.",
+        "Kleidung gemischt: ehemalige Funktionsträger, einfache Bürger, alles im Gefängnis-Grau der Situation."
+      ]
+    },
+    {
+      "pos": "3.2",
+      "akt": 3,
+      "szene": 2,
+      "zug_schaetzung_basis": 20,
+      "zug_budget": 23,
+      "ort": "Arbeitszimmer im Justizpalast, Fouquier-Tinville und Herman am Tisch mit Akten.",
+      "zeit": "Etwas später am selben Tag.",
+      "anwesende_figuren": [
+        "Fouquier-Tinville",
+        "Herman"
+      ],
+      "wichtige_beziehungen_und_spannungen": "Kalkulierte Manipulation der Gerichtsformalität: Geschworene werden gezielt ausgewählt, um ein Todesurteil zu sichern.",
+      "handlungsablauf_kurz": "Fouquier und Herman besprechen, wie man trotz Dantons rhetorischer Macht ein Todesurteil erzwingen kann. Sie entscheiden, die Geschworenen nicht zu losen, sondern gezielt handfeste, gefügige Männer zu wählen (Tauber, Trinker, Prinzipienreiter). Der Prozess wird als Schaubühne für das Volk geplant; Dantons 'Vortanzen' soll Teil des Spektakels sein. Am Ende steht eine zynische Einigkeit darüber, dass ‚zuverlässige Leute‘ das Ergebnis garantieren.",
+      "mikrostruktur_ereignisse": [
+        "Fouquier fragt, ob alles für den Prozess vorbereitet sei; Herman äußert Bedenken wegen Dantons Wirkung.",
+        "Herman schlägt vor, die Geschworenen entgegen der gesetzlichen Form auszusuchen.",
+        "Sie gehen exemplarisch mögliche Geschworene durch (Leroi, Vilatte, Lumière, Girard, Renaudin) und definieren ihre Tauglichkeit.",
+        "Das Schicksal der 19 Angeklagten wird als ‚gutes Heckefeuer‘ und ‚pikantes Gericht‘ für das Volk beschrieben.",
+        "Sie trennen sich in stiller Übereinkunft, die Form zu beugen, um den Inhalt – die Verurteilung – sicherzustellen."
+      ],
+      "status_vor_der_szene": "Offiziell existiert noch ein revolutionäres Rechtssystem mit Geschworenen und Regeln; in der Praxis ist die Entscheidung über Dantons Schicksal aber noch nicht formal getroffen.",
+      "aenderung_nach_der_szene": "Die Szene zeigt, dass der Prozess reine Farce sein wird: Auswahl, nicht Los entscheidet; die 'Gerechtigkeit' ist bereits auf ein Ergebnis hin programmiert.",
+      "buehnenbild_cues": [
+        "Dunkles Amtszimmer, massiver Tisch, Stapel von Akten; evtl. Guillotinen-Glocke oder Justizsymbol im Hintergrund.",
+        "Zwei Stühle, Schreibutensilien; die Atmosphäre: Nachtarbeit, Konspiration.",
+        "Licht bündelt sich auf Papier und Gesichtern, Außenwelt bleibt abstrahiert."
+      ]
+    },
+    {
+      "pos": "3.3",
+      "akt": 3,
+      "szene": 3,
+      "zug_schaetzung_basis": 22,
+      "zug_budget": 25,
+      "ort": "Korridor der Conciergerie, an den Zellen vorbei.",
+      "zeit": "Kurz vor bzw. nach dem ersten Verhandlungstag.",
+      "anwesende_figuren": [
+        "Lacroix",
+        "Danton",
+        "Mercier",
+        "andere Gefangene"
+      ],
+      "wichtige_beziehungen_und_spannungen": "Konfrontation mit den konkreten Folgen des Terrors: Mercier hält den Dantonisten das von ihnen geschaffene Tribunal vor, Danton bereut die Einrichtung.",
+      "handlungsablauf_kurz": "Lacroix ist erschüttert von der Zahl und dem Zustand der Gefangenen. Mercier erklärt gallig, dass all dies nur die mimische Übersetzung der großen Phrasen der Revolution sei: die Guillotine republikanisiere, aber in Wirklichkeit sind Menschenkörper das Material. Danton gesteht, dass er das Revolutionstribunal aus Angst vor neuen Septembermorden geschaffen habe und bittet um Verzeihung; er erkennt, dass das langsame Justizmorden schlimmer und ebenso unvermeidlich geworden ist. Die Szene endet in der Einsicht, dass alle – Ankläger und Angeklagte – von derselben Maschine zermalmt werden.",
+      "mikrostruktur_ereignisse": [
+        "Lacroix reagiert schockiert auf die Enge, Armut und Verzweiflung der Gefangenen.",
+        "Mercier entwickelt seine Kritik an der 'Gleichheitssichel' und der 'Lava der Revolution'.",
+        "Er wirft den Dantonisten vor, dass ihre Reden nun als Guillotinen und Karren körperlich geworden seien.",
+        "Danton berichtet, er habe das Tribunal vor einem Jahr geschaffen, um Massaker zu verhindern.",
+        "Er bittet um Verzeihung und sieht sein eigenes Schicksal nun an die Maschine gebunden, die er einst installiert hat."
+      ],
+      "status_vor_der_szene": "Nach 3.1 ist Dantons Status der eines Neuankömmlings unter vielen; der Prozess ist vorbereitet, aber sein Ausgang noch nicht offiziell fest.",
+      "aenderung_nach_der_szene": "Die moralische Tragweite des Tribunals wird explizit: es ist keine neutrale Institution, sondern ein von revolutionären Phrasen genährtes Tötungsinstrument, das sich nun gegen die eigenen Schöpfer richtet.",
+      "buehnenbild_cues": [
+        "Langer, enger Korridor mit Zellentüren, halbdunkel.",
+        "Gefangene in Zellen oder am Gangrand; vielleicht Hände durch Gitter.",
+        "Beengte Wege, ständig drohendes Geräusch (Schritte der Wachen)."
+      ]
+    },
+    {
+      "pos": "3.4",
+      "akt": 3,
+      "szene": 4,
+      "zug_schaetzung_basis": 36,
+      "zug_budget": 39,
+      "ort": "Saal des Revolutionstribunals.",
+      "zeit": "Erster Verhandlungstag gegen Danton und Mitangeklagte.",
+      "anwesende_figuren": [
+        "Herman",
+        "Danton",
+        "Fouquier-Tinville",
+        "Geschworene",
+        "Zuhörer"
+      ],
+      "wichtige_beziehungen_und_spannungen": "Dantons große Verteidigungsrede, die seine revolutionären Verdienste in Erinnerung ruft und das Tribunal zeitweise ins Wanken bringt.",
+      "handlungsablauf_kurz": "Herman verliest die Anklage: Danton habe mit Mirabeau, Dumouriez, Orléans, Girondisten und Royalisten konspiriert. Danton fordert, seine Ankläger – insbesondere St. Just – und die Ausschüsse persönlich zu sehen. In einer großen Rede ruft er seine Rolle am 10. August, im September und bei der Hinrichtung des Königs auf, stellt sich als Organ der Revolution dar und versucht, seine Gegner moralisch zu überbieten. Die Zuhörer reagieren mit sichtbarer Zustimmung, Beifall wird laut. Herman versucht, mit der Glocke zu disziplinieren, beendet schließlich die Sitzung mit Verweis auf Dantons Erschöpfung.",
+      "mikrostruktur_ereignisse": [
+        "Herman nennt die Verschwörungsvorwürfe und appelliert an Ruhe und Form.",
+        "Danton weist die Anklage als Verleumdung zurück, verlangt das Erscheinen der Ausschüsse.",
+        "Er entwickelt sein Bild von 'Nationalkühnheit' und der Rolle des starken Charakters in Revolutionen.",
+        "Er schildert seine Taten (Marsfeld, 10. August, 21. Januar) als Grundlage seiner Legitimität.",
+        "Das Publikum reagiert mit Beifall; das Gericht unterbricht und verschiebt die Fortsetzung."
+      ],
+      "status_vor_der_szene": "Durch 3.2–3.3 ist klar, dass hinter den Kulissen bereits gegen Danton gearbeitet wird; das Tribunal tritt nun öffentlich in Aktion.",
+      "aenderung_nach_der_szene": "Danton scheint rhetorisch noch einmal die Oberhand zu gewinnen; die Reaktionen im Saal zeigen, dass seine Aura im Volk und bei Teilen der Zuhörerschaft ungebrochen ist – gerade das löst jedoch die Gegenmaßnahmen des Wohlfahrtsausschusses aus.",
+      "buehnenbild_cues": [
+        "Großer Gerichtssaal mit Tribüne für Richter und Geschworene, barriereartiger Trennung zum Zuhörerraum.",
+        "Angeklagte in einer Gruppe, Danton im Zentrum.",
+        "Publikum dicht gedrängt, reagiert hörbar; Gerichtsglocke, revolutionäre Embleme."
+      ]
+    },
+    {
+      "pos": "3.5",
+      "akt": 3,
+      "szene": 5,
+      "zug_schaetzung_basis": 28,
+      "zug_budget": 31,
+      "ort": "Kerkerraum im Luxembourg, geteilter Raum für Dillon und Laflotte.",
+      "zeit": "Abend nach dem ersten Verhandlungstag.",
+      "anwesende_figuren": [
+        "Dillon",
+        "Laflotte",
+        "Gefängniswärter"
+      ],
+      "wichtige_beziehungen_und_spannungen": "Dillon schmiedet Pläne für einen Aufstand zur Befreiung der Gefangenen; Laflotte beschließt zynisch, ihn zu verraten, um sich selbst zu retten.",
+      "handlungsablauf_kurz": "Dillon liest heimlich einen Zettel mit Nachrichten vom Prozess: Dantons Rede habe die Geschworenen und das Volk erschüttert. Angetrieben durch Alkohol, entwirft er einen Plan: mit Hilfe Dantons, der Gefangenen und Unterstützung von außen soll ein Gefängnisaufstand den Konvent sprengen und die Dezemvirn stürzen. Laflotte kommentiert innerlich und äußert zynische Gedanken über Schmerz, Guillotine und Selbstrettung. Er entscheidet, den Plan dem Schließer und damit dem Wohlfahrtsausschuss zu verraten, um seine eigene Lage zu verbessern. Die Szene endet mit dem Gegensatz: Dillon träumt vom gemeinsamen Ausbruch, Laflotte vom persönlichen Überleben.",
+      "mikrostruktur_ereignisse": [
+        "Wärter macht mit spöttischen Scherzen den Weg frei; Dillon kauft sich sein Lesen mit Geld.",
+        "Dillon liest die Nachricht: Volksmassen, wankende Geschworene.",
+        "Er entwickelt in zunehmend exaltierter Stimmung seinen Plan eines Aufstands und der Befreiung.",
+        "Laflotte kommentiert in aside-Momenten sein Unbehagen vor Schmerz und seinem Wunsch, der Guillotine zu entgehen.",
+        "Laflotte geht hinaus, um 'mit dem Schließer zu sprechen', innerlich klar entschlossen zur Denunziation."
+      ],
+      "status_vor_der_szene": "Nach Dantons Rede besteht kurz die Möglichkeit, dass ein 'Gegenstreich' von innen und außen das Blatt wenden könnte.",
+      "aenderung_nach_der_szene": "Die mögliche Rettungslinie über Dillon wird innerlich gekappt: anstatt Solidarität dominiert Selbsterhaltung. Die spätere Denunziation liefert St. Just die Argumente für das neue Dekret.",
+      "buehnenbild_cues": [
+        "Kleiner, feuchter Kerkerraum mit Pritschen, einer Laterne, Flasche und Bechern.",
+        "Tür mit Durchreiche, durch die der Wärter agiert.",
+        "Starker Kontrast zu den großen Sälen: Enge und psychologische Zuspitzung."
+      ]
+    },
+    {
+      "pos": "3.6",
+      "akt": 3,
+      "szene": 6,
+      "zug_schaetzung_basis": 30,
+      "zug_budget": 33,
+      "ort": "Sitzungszimmer des Wohlfahrtsausschusses.",
+      "zeit": "Kurz nach 3.5, noch in der Prozessphase.",
+      "anwesende_figuren": [
+        "St. Just",
+        "Barère",
+        "Collot d'Herbois",
+        "Billaud-Varennes",
+        "Schließer (kurz)"
+      ],
+      "wichtige_beziehungen_und_spannungen": "Der Ausschuss reagiert auf die Prozessdynamik und Dillons Verschwörungspläne mit einem neuen, formell begründeten Gewaltinstrument; zugleich zeigt sich der Zynismus der 'Tugendhaften'.",
+      "handlungsablauf_kurz": "St. Just berichtet von der Unruhe im Tribunal, Dantons Auftritten und von Dillons angeblicher Verschwörung, die Laflotte verraten hat. Barère und Collot kommentieren mit ironischer Distanz, Billaud mit brutaler Kälte (z. B. gegenüber schwangeren Gefangenen). In Diskussionen über Bittgesuche und Krankheiten von Gefangenen zeigt sich die verrohte Moral. St. Just entwirft den Plan eines Dekrets, das dem Tribunal erlaubt, den Prozess ohne Unterbrechung zu führen und störende Angeklagte von der Debatte auszuschließen. Barère und Collot liefern die rhetorischen Bilder, mit denen dies im Konvent verkauft werden soll.",
+      "mikrostruktur_ereignisse": [
+        "St. Just verliest Fouquiers Bericht und beschreibt Dantons Wirkung als gefährlich.",
+        "Ein Schließer bringt Nachrichten über kranke und schwangere Gefangene; Billaud reagiert grausam.",
+        "Collot formuliert zynische Antworten auf Bittschriften (z. B. 'es ist noch nicht lange genug, dass du den Tod wünschest').",
+        "St. Just erläutert Dillons Verschwörung, gestützt auf Laflotte.",
+        "Sie einigen sich auf ein Dekret: ununterbrochene Verfahren, Ausschluss störender Angeklagter.",
+        "Barère plant eine pathetische, historisch drapierte Rede (Katilina-Vergleich), Collot fügt revolutionäre Bilder hinzu."
+      ],
+      "status_vor_der_szene": "Bis hierhin sind Ausschuss und Tribunal formal getrennt, auch wenn der Einfluss des Ausschusses deutlich ist.",
+      "aenderung_nach_der_szene": "Jetzt entsteht das spezifische Instrument, das Dantons Stimme im Prozess zum Schweigen bringen wird – als scheinbar nüchterne Formregel, in Wahrheit als gezieltes Maulkorbdekret.",
+      "buehnenbild_cues": [
+        "Großer Sitzungstisch, mehrere Stühle, Dokumente, Federkiele.",
+        "Karte Frankreichs oder revolutionäre Symbole im Hintergrund.",
+        "Stimmung zwischen Amtsroutine und Verschwörungszelle."
+      ]
+    },
+    {
+      "pos": "3.7",
+      "akt": 3,
+      "szene": 7,
+      "zug_schaetzung_basis": 34,
+      "zug_budget": 37,
+      "ort": "Zelle oder Aufenthaltsraum der Dantonisten in der Conciergerie.",
+      "zeit": "Nach dem ersten Verhandlungstag, nachts oder am frühen Morgen.",
+      "anwesende_figuren": [
+        "Lacroix",
+        "Danton",
+        "Philippeau",
+        "Camille"
+      ],
+      "wichtige_beziehungen_und_spannungen": "Danton und Camille artikulieren nackte Todesangst und metaphysische Verzweiflung; Philippeau versucht zu trösten.",
+      "handlungsablauf_kurz": "Lacroix wirft Danton vor, seine Kraft zu spät mobilisiert zu haben. Camille malt die Guillotine als kalt-formale Eheschließung mit dem Tod, Danton fürchtet das mechanische Morden und die Fäulnis des Körpers. Beide fallen in eine Art metaphysischer Verzweiflung über das Unvermögen, wirklich zu sterben (das Nichts zu erreichen). Philippeau reagiert mit ruhigen Bildern von Herbstzeitlosen und Misthaufen, versucht die Situation zu relativieren. Danton gesteht seine Bindung an Julie und seine Unfähigkeit zu sterben, solange seine 'Atome' nach ihr verlangen. Am Ende beschließt die Gruppe, noch einmal laut zu kämpfen und auf dem Recht zu beharren, die Ankläger zu hören.",
+      "mikrostruktur_ereignisse": [
+        "Lacroix kritisiert Dantons vorherige Passivität.",
+        "Camille entwirft drastische Bilder eines langsamen, formalisierten Todes.",
+        "Danton entwickelt seine 'Nichts'-Philosophie und beschreibt die Welt als verwesende Wunde des Nicht-Seins.",
+        "Philippeau versucht, mit Humor und Bildern (Herbstzeitlose, Schulbänke) zu entdramatisieren.",
+        "Danton endet in einem Ausbruch über seine Liebe zu Julie und dem Vorsatz, weiter zu schreien."
+      ],
+      "status_vor_der_szene": "Nach den juristischen Manövern bleibt den Angeklagten die Nacht zur Selbstbesinnung und existenziellen Reaktion.",
+      "aenderung_nach_der_szene": "Die Szene zeigt, wie die politische Tragödie sich in existenzielle Angst verwandelt; die nächste Szene (3.8/3.9) wird ihre letzte Kampfchance formal zunichtemachen.",
+      "buehnenbild_cues": [
+        "Enge Zelle mit Pritschen, schwaches Licht, vielleicht Kerze.",
+        "Körperlich erschöpfte Figuren, aber mit gesteigerter innerer Bewegung.",
+        "Kein Ein- und Ausgehen mehr; 'Einschluss' vor dem finalen Gerichtsmanöver."
+      ]
+    },
+    {
+      "pos": "3.8",
+      "akt": 3,
+      "szene": 8,
+      "zug_schaetzung_basis": 16,
+      "zug_budget": 19,
+      "ort": "Büro im Justizpalast.",
+      "zeit": "Kurz vor Verkündung des Konventsdekrets.",
+      "anwesende_figuren": [
+        "Fouquier-Tinville",
+        "Amar",
+        "Vouland"
+      ],
+      "wichtige_beziehungen_und_spannungen": "Die Verbindung zwischen Wohlfahrtsausschuss und Tribunal wird konkret: Eine 'Kommission' aus Ausschussmitgliedern legitimiert das weitere Vorgehen.",
+      "handlungsablauf_kurz": "Fouquier klagt, dass er auf die Forderung der Angeklagten nach einer Kommission und Zeugen keine Antwort mehr habe. Amar und Vouland liefern eine Denunziation bzw. ein Papier (Laflottes Aussage, Dillon-Verschwörung), mit dem er das Tribunal beruhigen und zugleich die Angeklagten erledigen kann. Ihre Geste, das Papier hinzuschieben, zeigt, wie direkt die Ausschüsse den juristischen Prozess steuern.",
+      "mikrostruktur_ereignisse": [
+        "Fouquier zeigt sich kurzfristig überfordert von den Verteidigungsforderungen.",
+        "Amar beruhigt ihn und übergibt das Dokument mit der Denunziation.",
+        "Vouland unterstreicht, dass dies die 'Kommission' sei, die Danton verlangt – aber gegen ihn.",
+        "Die Szene endet mit Fouquiers Erleichterung und dem Auftrag, 'die Sache vom Hals zu bekommen'."
+      ],
+      "status_vor_der_szene": "Nach 3.6 ist das Dekret politisch vorbereitet; jetzt werden die juristischen Stellschrauben final gesetzt.",
+      "aenderung_nach_der_szene": "Die Szene schafft die unmittelbare Brücke zwischen Ausschussbeschluss und Tribunalaktion; Danton wird formal abgefertigt.",
+      "buehnenbild_cues": [
+        "Kleineres Amtszimmer mit wenigen Requisiten, betont funktional.",
+        "Schreibtisch, Stuhl, einige Akten; Übergabe des entscheidenden Papiers optisch hervorheben.",
+        "Gefühl einer kurzen, effizienten Besprechung zwischen Funktionären."
+      ]
+    },
+    {
+      "pos": "3.9",
+      "akt": 3,
+      "szene": 9,
+      "zug_schaetzung_basis": 30,
+      "zug_budget": 33,
+      "ort": "Saal des Revolutionstribunals, wie 3.4.",
+      "zeit": "Folgetag von 3.4, während der laufenden Verhandlung.",
+      "anwesende_figuren": [
+        "Danton",
+        "Camille",
+        "Fouquier-Tinville",
+        "Amar",
+        "Vouland",
+        "Geschworene",
+        "Zuhörer"
+      ],
+      "wichtige_beziehungen_und_spannungen": "Das Dekret des Konvents wird verlesen; Danton und Camille versuchen, sich zu wehren, werden aber unter Berufung auf das neue Gesetz aus der Debatte ausgeschlossen.",
+      "handlungsablauf_kurz": "Danton verlangt erneut eine Kommission und kündigt Enthüllungen an. Fouquier, Amar und Vouland treten auf; Fouquier verliest das Konventsdekret, das dem Tribunal erlaubt, ununterbrochen zu verhandeln und störende Angeklagte auszuschließen. Danton brandmarkt Robespierre, St. Just und den Wohlfahrtsausschuss als Verräter und bezeichnet die Guillotine als Weg der Fremden ins Herz Frankreichs. Camille erkennt, dass Lucile durch die Erwähnung im Dekret mit bedroht wird. Das Publikum reagiert mit Begeisterung für Danton, ruft gegen die Dezemvirn – doch die Angeklagten werden gewaltsam abgeführt; ihre Stimme wird durch Gewalt und Formrecht verstummen.",
+      "mikrostruktur_ereignisse": [
+        "Danton erklärt pathetisch seinen Appell an das Volk und an die Vernunft.",
+        "Fouquier verliest das Dekret mit den 'in Betracht'-Formeln (Gefängnisunruhen, Geld der Frauen, Dillon-Plan).",
+        "Camille ruft entsetzt über die Gefahr für Lucile.",
+        "Danton greift Robespierre und St. Just offen als Hochverräter an und beschreibt die Blutpolitik als Diktatur.",
+        "Zuschauer schreien 'Es lebe Danton', 'Nieder mit den Dezemvirn'.",
+        "Wachen drängen die Angeklagten hinaus, trotz Tumult; das Tribunal setzt sich durch."
+      ],
+      "status_vor_der_szene": "Bis zur Verlesung des Dekrets ist noch eine Resthoffnung auf ein faires Verfahren vorhanden.",
+      "aenderung_nach_der_szene": "Nach der Szene ist klar: die Entscheidung steht fest, das Tribunal wird ohne die Stimmen der Angeklagten zu Ende verhandeln; der Prozess kippt endgültig von Drama zu Exekution.",
+      "buehnenbild_cues": [
+        "Gleicher Gerichtssaal wie 3.4, nun mit stärker militarisierter Präsenz (mehr Wachen, sichtbare Waffen).",
+        "Publikum aufgewühlt, körperliche Bewegung (Aufstehen, Zurufe).",
+        "Abführung der Angeklagten als choreografierter Akt – Sichtbarkeit des Verstummens."
+      ]
+    },
+    {
+      "pos": "3.10",
+      "akt": 3,
+      "szene": 10,
+      "zug_schaetzung_basis": 18,
+      "zug_budget": 21,
+      "ort": "Platz vor dem Justizpalast, Volksmenge.",
+      "zeit": "Unmittelbar nach 3.9.",
+      "anwesende_figuren": [
+        "Erster Bürger",
+        "Zweiter Bürger",
+        "Weiber",
+        "Volkshaufe"
+      ],
+      "wichtige_beziehungen_und_spannungen": "Das Volk schwankt kurz zwischen Sympathie für Danton und dem Misstrauen gegen Reichtum und Genuss; am Ende kippt die Stimmung zu Robespierre.",
+      "handlungsablauf_kurz": "Eine Menge versammelt sich; einige rufen 'Es lebe Danton' und beklagen, dass die Guillotine statt Brot nur Köpfe liefere. Ein zweiter Bürger dreht die Argumentation um: Danton sei reich, genieße Wein, Frauen und schöne Dinge – sein Reichtum könne nur aus Verrat stammen. Zugleich verweist er auf Robespierres Armut und 'Tugend'. Im Gespräch zeigt sich, wie leicht revolutionäre Legenden die Meinung beeinflussen. Schließlich ruft die Menge 'Es lebe Robespierre! Nieder mit Danton!' – das Volk schließt sich der Propaganda an.",
+      "mikrostruktur_ereignisse": [
+        "Erster Bürger verweist auf Dantons frühere Verdienste (10. August, September) und fragt, wo seine Ankläger damals waren.",
+        "Zweiter Bürger erinnert an Lafayettes Verrat als Gegenbeispiel dafür, dass frühere Verdienste nicht vor Verrat schützen.",
+        "Es wird über Dantons Lebensstil gesprochen (Haus, Kleider, Wein, Frau, Verhältnis zu Frauen aus dem Volk).",
+        "Robespierre wird als arm, tugendhaft und bekannt beschrieben.",
+        "Die Rufe kippen von Pro-Danton zu Pro-Robespierre, Anti-Danton."
+      ],
+      "status_vor_der_szene": "Nach 3.9 war das Publikum im Saal noch aufgewühlt zugunsten Dantons; die Szene fragt, wie 'das Volk' draußen wirklich reagiert.",
+      "aenderung_nach_der_szene": "Die Stimmung im Volk wird als manipulierbar und widersprüchlich gezeigt: kurzfristige Empörung wandelt sich in moralisch motivierte Zustimmung zur Hinrichtung Dantons.",
+      "buehnenbild_cues": [
+        "Offene Platzbühne mit Tor oder Fassade des Justizpalasts im Hintergrund.",
+        "Volksstatisten, Marktfrauen, Bürger; Unruhe, Gesten.",
+        "Rufe, die klar von der Bühne aus gelenkt werden können, um Wandel der Stimmung hörbar zu machen."
+      ]
+    },
+    {
+      "pos": "4.1",
+      "akt": 4,
+      "szene": 1,
+      "ort": "Zimmer (Julies Wohnung)",
+      "zeit": "früher Morgen / kurz nach der Verurteilung Dantons",
+      "anwesende_figuren": [
+        "Julie",
+        "Knabe (Bote, stumm)"
+      ],
+      "zug_schaetzung_basis": "Sehr kurz, nur Abschiedsgeste und Auftrag an den Knaben.",
+      "zug_budget": 3,
+      "wichtige_beziehungen_und_spannungen": [
+        "Julie und Danton: radikale Liebesbindung, die bis in den Tod reicht.",
+        "Julie und der Knabe: rein funktionale Botenbeziehung."
+      ],
+      "handlungsablauf_kurz": "Julie erfährt, dass Danton sterben wird; sie schickt einem Knaben eine Locke für Danton mit der Botschaft, er werde nicht allein gehen, und will seine letzten Blicke aus den Augen des Kindes lesen.",
+      "mikrostruktur_ereignisse": [
+        "Julie konstatiert, dass die Gegner Dantons ihn aus Angst töten.",
+        "Sie verabschiedet sich innerlich von ihm.",
+        "Sie gibt dem Knaben eine Locke und eine chiffrierte Botschaft.",
+        "Sie kündigt an, auf seine Antwort/Blicke zu warten."
+      ],
+      "status_vor_der_szene": "Danton ist verurteilt, aber die emotionale Reaktion Julies wurde bisher nur angedeutet.",
+      "aenderung_nach_der_szene": "Julies Entschluss zum gemeinsamen Tod wird konkret; das Publikum weiß jetzt, dass sie Danton in den Tod folgen will.",
+      "buehnenbild_cues": [
+        "Schlichtes Zimmer, Morgenlicht.",
+        "Vielleicht bereits gepackte oder verlassene Atmosphäre, Fokus auf Julie und den Knaben.",
+        "Locke als wichtiges Requisit."
+      ]
+    },
+    {
+      "pos": "4.2",
+      "akt": 4,
+      "szene": 2,
+      "ort": "Straße in Paris",
+      "zeit": "kurz nach dem Prozess / noch am selben Tag",
+      "anwesende_figuren": [
+        "Dumas",
+        "Bürger"
+      ],
+      "zug_schaetzung_basis": "Kurzer Dialog, der Dumas' Fanatismus und seine Bereitschaft zeigt, sogar das eigene Weib zu opfern.",
+      "zug_budget": 4,
+      "wichtige_beziehungen_und_spannungen": [
+        "Bürger vs. Dumas: moralische Empörung vs. jakobinischer Fanatismus.",
+        "Dumas und sein Weib (in Abwesenheit): Beispiel für Opferideologie der Tugend."
+      ],
+      "handlungsablauf_kurz": "Ein Bürger stellt empört in Frage, wie so viele Unschuldige verurteilt werden konnten. Dumas antwortet zynisch, Revolutionsmänner hätten einen besonderen Sinn, und erklärt kalt, dass sogar seine Ehe durch das Revolutionstribunal und die Guillotine geschieden werde – Brutus als Vorbild.",
+      "mikrostruktur_ereignisse": [
+        "Bürger spricht das Unrecht des Urteils an.",
+        "Dumas behauptet 'revolutionären Sinn' als unfehlbare Instanz.",
+        "Bürger erfährt, dass Dumas' Frau ebenfalls sterben soll.",
+        "Dumas rechtfertigt dies mit Brutus und opfert Pathos an die Revolution."
+      ],
+      "status_vor_der_szene": "Das Tribunal erscheint schon brutal, aber die private Dimension der Opferbereitschaft ist noch nicht explizit.",
+      "aenderung_nach_der_szene": "Dumas wird als moralisch deformierter Fanatiker gezeichnet, der seine eigene Familie opfert, wodurch der Terror weiter entindividualisiert erscheint.",
+      "buehnenbild_cues": [
+        "Straßenszenerie mit Passanten im Hintergrund.",
+        "Dumas in rotem Revolutionsfrack als visueller Kontrast zum 'normalen' Bürger."
+      ]
+    },
+    {
+      "pos": "4.3",
+      "akt": 4,
+      "szene": 3,
+      "ort": "Conciergerie – Zelle mit zwei Pritschen",
+      "zeit": "Nacht vor der Hinrichtung",
+      "anwesende_figuren": [
+        "Danton",
+        "Camille",
+        "Lacroix",
+        "Hérault-Séchelles"
+      ],
+      "zug_schaetzung_basis": "Lange, dicht philosophierende Szene mit vielen Bildern, Todesangst, Witz und Nihilismus – einer der zentralen Knotenpunkte des Stücks.",
+      "zug_budget": 16,
+      "wichtige_beziehungen_und_spannungen": [
+        "Danton und Camille: Brüderlicher Schulterschluss, aber unterschiedliche Temperamente von Angst und Pose.",
+        "Lacroix und Hérault: zynisch-witzige Kommentatoren, die den physischen Verfall ironisieren.",
+        "Alle vs. Tod: existenzielle Konfrontation mit Sterben, Körper, Nichts."
+      ],
+      "handlungsablauf_kurz": "Die Männer versuchen, mit Witzen über ihre Körper und den Tod die Angst zu bannen. Camille spricht verzweifelt von Lucile, will nicht sterben, hat Halluzinationen; Danton schwankt zwischen der Sehnsucht nach Ruhe im Nichts und panischer Furcht, nicht vernichtet werden zu können. Sie lesen Youngs 'Nachtgedanken' bzw. Voltaires 'Pucelle' und kommentieren den eigenen Tod als mechanische, sinnlose Fäulnis.",
+      "mikrostruktur_ereignisse": [
+        "Lacroix/Hérault scherzen über ihren Körperzerfall und 'Würmer' als letzte Instanz.",
+        "Danton und Camille tauschen Bilder über den Tod als Mühlwerk, leere Flasche, zerbrochene Fiedel.",
+        "Camille halluziniert Mond und Sternenkuppel, wird von Danton zurück in die Realität geholt.",
+        "Beide greifen zu Büchern (Nachtgedanken vs. Pucelle) als letzte Lektüre vor dem Tod.",
+        "Danton formuliert seine atheistische Kosmologie des Nichts, das sich selbst ermordet hat.",
+        "Camille überträgt das auf Welt/Nichts als ewigen Juden und unmöglichen Tod.",
+        "Danton denkt an Julie, betont, dass er ohne sie nicht sterben könne.",
+        "Schließer kündigt schließlich das Bereitstehen der Wagen an, Freunde verabschieden sich."
+      ],
+      "status_vor_der_szene": "Danton wirkt noch kämpferisch, Camille zwischen Mut und Angst; Tod ist abstrakt politisch.",
+      "aenderung_nach_der_szene": "Beide sind existenziell 'aufgelöst': politische Pose fällt ab, es bleiben nackte Todesangst, nihilistische Reflexion und die Entscheidung, ohne Würdepathos, aber bewusst in die Hinrichtung zu gehen.",
+      "buehnenbild_cues": [
+        "Enger Kerkerraum, zwei Pritschen/Bänke, schwaches Lampenlicht.",
+        "Ein kleines Fenster mit Sicht auf den Himmel für die Mondszene.",
+        "Requisiten: Decken, Bücher (Youngs 'Nachtgedanken', Voltaires 'La Pucelle')."
+      ]
+    },
+    {
+      "pos": "4.4",
+      "akt": 4,
+      "szene": 4,
+      "ort": "Platz vor der Conciergerie",
+      "zeit": "Morgendämmerung vor der Hinrichtung",
+      "anwesende_figuren": [
+        "Schließer",
+        "Erster Fuhrmann",
+        "Zweiter Fuhrmann",
+        "Weiber (Prostituierte)",
+        "Lucile",
+        "Camille (am Fenster)"
+      ],
+      "zug_schaetzung_basis": "Mittlere Szene mit volkstümlich-derbem Humor der Karrenfahrer und Luciles beginnendem Wahnsinnslied.",
+      "zug_budget": 10,
+      "wichtige_beziehungen_und_spannungen": [
+        "Fuhrleute vs. Gefangene: Karren als banaler Job vs. Transport zum Tod.",
+        "Weiber vs. Verurteilte: zynischer, sexualisierter Blick auf Hinrichtungen.",
+        "Lucile und Camille: letzte, räumlich getrennte Begegnung – sie singt Liebeslied, er kann kaum eingreifen."
+      ],
+      "handlungsablauf_kurz": "Fuhrleute machen derbe Witze über ihren 'Beruf' als beste Fuhrleute zum Revolutionsplatz. Weiber warten auf 'alte Kunden'. Lucile setzt sich unter Camilles Fenster, singt ein Liebeslied und spricht zu ihm, als sei sein Kerkerrock ein Verkleidungsscherz. Sie nimmt die Nachricht vom Tod nicht rational an, sondern gleitet in eine kindlich-absurde Wahrnehmung, rennt dem Wort 'Sterben' gleichsam nach.",
+      "mikrostruktur_ereignisse": [
+        "Fuhrleute prahlen damit, dass sie am schnellsten und weitesten fahren: 'aus der Welt in einer Viertelstunde'.",
+        "Weiber markieren den Revolutionsplatz als Ort, um alte Kunden wiederzusehen.",
+        "Lucile ruft nach Camille, kommentiert seinen 'Steinrock' und 'Maske'.",
+        "Sie singt das Lied vom 'Sternlein an dem Himmel'.",
+        "Sie versucht, das Wort 'Sterben' zu begreifen und 'einzuholen', rennt ab.",
+        "Camille ruft verzweifelt nach ihr."
+      ],
+      "status_vor_der_szene": "Lucile ist als liebevolle, aber rational wirkende Figur eingeführt; Volksposition zur Guillotine ist zynisch.",
+      "aenderung_nach_der_szene": "Luciles Wahnsinn bricht offen hervor; das Publikum sieht, wie der Terror in den intimsten Lebenskreis greift. Die Hinrichtungsvorbereitungen sind konkret sichtbar.",
+      "buehnenbild_cues": [
+        "Gefängnisfassade mit hochgelegenen Fenstern.",
+        "Zwei Karren, Ochsengespanne oder ähnliche Zugtiere.",
+        "Straßenproletariat: Weiber, Fuhrleute, herumlungernde Figuren.",
+        "Lucile auf Steinblock direkt unter einem angedeuteten Fenster Camilles."
+      ]
+    },
+    {
+      "pos": "4.5",
+      "akt": 4,
+      "szene": 5,
+      "ort": "Conciergerie – Zelle, Fenster zum Nebenzimmer",
+      "zeit": "kurz vor der Abfahrt zur Hinrichtung",
+      "anwesende_figuren": [
+        "Danton",
+        "Camille",
+        "Philippeau",
+        "Lacroix",
+        "Hérault-Séchelles",
+        "Fabre d'Églantine (Stimme)"
+      ],
+      "zug_schaetzung_basis": "Philosophisch-politische Szene, in der Danton seine Prognose über Robespierres Sturz und die Nachwelt entwickelt; Camille dekonstruiert die Masken.",
+      "zug_budget": 10,
+      "wichtige_beziehungen_und_spannungen": [
+        "Danton vs. zukünftige Geschichte: Pose des großen Tragödienhelden vs. Wissen um eigene Leichenhaftigkeit.",
+        "Camille vs. Heroisierungsdiskurs: zynische Entlarvung des Pathos.",
+        "Gruppe vs. Robespierre: Feindschaft über den Tod hinaus (Danton kündigt Robespierres Ende an)."
+      ],
+      "handlungsablauf_kurz": "Danton ruft zum sterbenden Fabre hinüber, macht einen Vers-Witz. Die Freunde reflektieren über die Revolution als 'in Menschenfleisch gearbeitetes System' und über die eigene Schuld am Tribunal. Danton kündigt Robespierres Fall innerhalb von sechs Monaten an. Camille attackiert pathetische Heldenposen, entlarvt die 'Masken' und die Gleichheit aller Menschen im Schafskopf. Philippeau versucht eine religiös getönte Perspektive einzuziehen. Am Ende werden sie zum Abtransport gerufen.",
+      "mikrostruktur_ereignisse": [
+        "Danton spricht mit dem sterbenden Fabre im Nebenzimmer, nennt ihn 'des vers'.",
+        "Sie bekennen, dass sie 'in Menschenfleisch gearbeitet' haben.",
+        "Danton gesteht seine Schuld an der Schaffung des Revolutionstribunals ein.",
+        "Alle diskutieren, was nach ihnen kommt, ob Despotismus wiederkehrt.",
+        "Camille zerlegt die Idee vom individuellen Genie/Helden, betont uniformen Schafskopf.",
+        "Philippeau setzt auf einen göttlichen Harmonieraum jenseits des Chaos.",
+        "Danton fragt, ob Menschen bloß Opferlust der Götter seien; Bilder von Moloch und gequälten Ferkeln.",
+        "Schließer kommt, kündigt Abfahrt an; letzte Umarmungen."
+      ],
+      "status_vor_der_szene": "Dantons historische Rolle ist noch durch Pathos der eigenen Verteidigung aufgeladen.",
+      "aenderung_nach_der_szene": "Selbsthistorisierung und ihre Dekonstruktion fallen zusammen: Danton ist gleichzeitig Monument- und Schafskopf; der Weg zum Schafott ist klar und unumkehrbar.",
+      "buehnenbild_cues": [
+        "Ähnlich wie 4.3, aber mit stärkerer Konzentration auf das Fenster zum Nebenzimmer.",
+        "Akustische Gestaltung von Fabres Stimme aus dem Off.",
+        "Tür/Schließer-Eintritt als dramaturgischer Einschnitt."
+      ]
+    },
+    {
+      "pos": "4.6",
+      "akt": 4,
+      "szene": 6,
+      "ort": "Julies Zimmer, Fenster zur Abendlandschaft",
+      "zeit": "Abend desselben Tages, parallel oder kurz nach der Hinrichtung",
+      "anwesende_figuren": [
+        "Julie (allein)"
+      ],
+      "zug_schaetzung_basis": "Kurze, lyrisch-dichte Monologszene mit Giftphiole.",
+      "zug_budget": 4,
+      "wichtige_beziehungen_und_spannungen": [
+        "Julie vs. die sterbende Erde: Identifikation ihres eigenen Sterbens mit dem Abend der Welt.",
+        "Julie vs. Danton (abwesend): Vollzug des angekündigten gemeinsamen Sterbens."
+      ],
+      "handlungsablauf_kurz": "Julie nimmt Gift aus einer Phiole, tritt ans Fenster und betrachtet den Untergang der Sonne. Sie vergleicht die Erde mit einer Sterbenden, deren 'Leiche' im Äther abtreibt, und beschließt, ohne Aufsehen, ohne Kuss, leise zu gehen, um niemanden zu wecken.",
+      "mikrostruktur_ereignisse": [
+        "Julie kommentiert das Schweigen der Stadt nach dem Volkslärm.",
+        "Sie öffnet die Phiole und trinkt das Gift.",
+        "Am Fenster beschreibt sie in poetischen Bildern den sterbenden Tag.",
+        "Sie verabschiedet sich von der Welt, wünscht ihr einen Schlaf ohne Störung.",
+        "Sie stirbt still."
+      ],
+      "status_vor_der_szene": "Julie hat nur angedeutet, dass sie Danton folgen will.",
+      "aenderung_nach_der_szene": "Das Motiv des Liebestods wird vollendet; die private Tragödie parallelisiert die öffentliche Hinrichtung.",
+      "buehnenbild_cues": [
+        "Halbdunkler Raum, Fenster mit Abendhimmel (Lichtregie wichtig).",
+        "Requisit: kleine Phiole, eventuell Stuhl/Bank am Fenster.",
+        "Julie als einzige Figur in einem statischen, tableauartigen Bild."
+      ]
+    },
+    {
+      "pos": "4.7",
+      "akt": 4,
+      "szene": 7,
+      "ort": "Revolutionsplatz mit Guillotine",
+      "zeit": "kurz nach Julies Tod, realistisch: Nachmittag desselben Tages",
+      "anwesende_figuren": [
+        "Danton",
+        "Camille",
+        "Lacroix",
+        "Hérault-Séchelles",
+        "Philippeau",
+        "Fabre d'Églantine",
+        "Weiber",
+        "Volk (Männer und Frauen)",
+        "Fuhrleute",
+        "Kinder"
+      ],
+      "zug_schaetzung_basis": "Zentrale Hinrichtungsszene mit Chören, Zurufen, letzten Worten – technisch aufwendig, aber linear abspielbar.",
+      "zug_budget": 14,
+      "wichtige_beziehungen_und_spannungen": [
+        "Verurteilte vs. Volk: Bewunderung, Häme, Abstumpfung.",
+        "Dantonisten untereinander: letzte Solidarität, Witz bis zum Schluss.",
+        "Camille vs. Weiber: Er verflucht sie, sie spotten."
+      ],
+      "handlungsablauf_kurz": "Die Wagen treffen ein, Volk tanzt Carmagnole, Gefangene singen Marseillaise. Weiber machen obszöne Bemerkungen über Danton und Hérault, die Männer antworten mit Witz. Camille beschimpft die Weiber, Danton mahnt zur Ruhe. Camille bezahlt den Fuhrmann ('Charon') und kündigt an, sich zuerst 'servieren' zu lassen. Einer nach dem anderen besteigt das Schafott, gibt letzte Worte. Danton weist den Henker zurecht und bemerkt, ihre Köpfe würden sich im Korb noch küssen.",
+      "mikrostruktur_ereignisse": [
+        "Volk skandiert, singt, fordert Brot vs. Spektakel.",
+        "Weib mit Kindern will sie 'zusehen machen'.",
+        "Hérault macht letzte frivole Bemerkung über Venusberg-Perücke.",
+        "Lacroix prophetisiert, dass die Esel später 'Es lebe die Republik' schreien werden, wenn sie den Verstand wieder haben.",
+        "Philippeau vergibt dem Volk.",
+        "Fabre verabschiedet sich mit 'Ich sterbe doppelt'.",
+        "Danton kommentiert Guillotine als besten Arzt.",
+        "Danton und Hérault werden vom Henker getrennt; Danton fordert, nicht grausamer als der Tod zu sein.",
+        "Vorhang der Guillotine fällt (Licht/Sound)."
+      ],
+      "status_vor_der_szene": "Dantonisten sind zum Tode verurteilt, aber das Spektakel und die Reaktion des Volkes sind noch offen.",
+      "aenderung_nach_der_szene": "Die Protagonisten sind tot; die Revolution hat ihre prominentesten Kinder verschlungen. Die Bühne der politischen Handlung ist leergefegt.",
+      "buehnenbild_cues": [
+        "Großer Platz mit zentraler Guillotine, Stufen, Blutkorb.",
+        "Zwei Karren, Volksmenge, eventuell einfache Tribüne für Chor.",
+        "Kontrast von Volksfest-Atmosphäre (Musik, Tanz) und Hinrichtungsmaschinerie."
+      ]
+    },
+    {
+      "pos": "4.8",
+      "akt": 4,
+      "szene": 8,
+      "ort": "Pariser Straße",
+      "zeit": "unmittelbar nach der Hinrichtung (gefühlt)",
+      "anwesende_figuren": [
+        "Lucile",
+        "Weiber (drei)",
+        "Passanten (stumm)"
+      ],
+      "zug_schaetzung_basis": "Kurze, aber intensive Szene, in der Lucile versucht, mit einem Schrei die Welt anzuhalten.",
+      "zug_budget": 5,
+      "wichtige_beziehungen_und_spannungen": [
+        "Lucile vs. Weltlauf: individuelles Leid vs. ungerührter Gang der Ereignisse.",
+        "Weiber vs. Lucile: banaler Klatsch über Héraults Aussehen vs. Luciles Suche nach Camille."
+      ],
+      "handlungsablauf_kurz": "Lucile versucht gedanklich zu begreifen, dass der Strom des Lebens nicht für Camille anhalten will. Sie hofft, mit einem Schrei die Zeit zu stoppen, doch alles läuft weiter. Weiber reden nebenbei darüber, wie gut Hérault auf der Guillotine ausgesehen habe und wie wichtig öffentliche Hinrichtungen seien. Lucile fragt, wo sie Camille suchen soll.",
+      "mikrostruktur_ereignisse": [
+        "Lucile reflektiert, dass alles weitergeht: Uhren, Glocken, Wasser, Wolken.",
+        "Sie setzt sich hin, schreit mit verhüllten Augen.",
+        "Nach dem Schrei erkennt sie, dass sich nichts verändert hat.",
+        "Weiber passieren, sprechen über Hérault und die Öffentlichkeit des Sterbens.",
+        "Lucile bleibt mit der Frage zurück, wo Camille jetzt ist."
+      ],
+      "status_vor_der_szene": "Lucile hat Camille 'verloren', aber der Schock ist noch nicht in eine politische Geste umgeschlagen.",
+      "aenderung_nach_der_szene": "Lucile ist existenziell isoliert; ihre Wahrnehmung von Welt und Sinn bricht endgültig auseinander.",
+      "buehnenbild_cues": [
+        "Einfache Straßenprojektion, evtl. dieselbe Gasse wie in 4.2.",
+        "Lucile zuerst stehend, dann auf dem Boden sitzend.",
+        "Weiber als vorbeiziehende Randfiguren."
+      ]
+    },
+    {
+      "pos": "4.9",
+      "akt": 4,
+      "szene": 9,
+      "ort": "Revolutionsplatz, leere Guillotine",
+      "zeit": "kurz nach der Hinrichtung, später Abend",
+      "anwesende_figuren": [
+        "Erster Henker",
+        "Zweiter Henker",
+        "Lucile",
+        "Patrouille",
+        "Bürger"
+      ],
+      "zug_schaetzung_basis": "Abschlussbild des Stücks: Alltag der Henker, Luciles doppelter Bruch ('Es lebe der König') und Verhaftung.",
+      "zug_budget": 6,
+      "wichtige_beziehungen_und_spannungen": [
+        "Henker vs. Tod: Routine, Gesang, Entsakralisierung der Guillotine.",
+        "Lucile vs. Republik: ihr Ausruf 'Es lebe der König!' als paradoxes, verzweifeltes Signal.",
+        "Patrouille vs. Lucile: Staatsgewalt reagiert mechanisch auf das Tabuwort ‚König‘."
+      ],
+      "handlungsablauf_kurz": "Die Henker reinigen die Guillotine, singen ein derbes Lied und gehen. Lucile setzt sich auf die Stufen, spricht liebevoll zur Guillotine als 'Wiege' und 'Totenglocke', singt das Schnitter-Lied. Eine Patrouille erscheint; im Moment der Entscheidung ruft Lucile plötzlich 'Es lebe der König!' und wird verhaftet.",
+      "mikrostruktur_ereignisse": [
+        "Henker besingen ihren Heimweg und machen Witze über ihre Arbeit.",
+        "Lucile setzt sich auf die Stufen und richtet sich an die Guillotine wie an ein Kind/Wiege.",
+        "Sie singt das Lied vom Schnitter Tod.",
+        "Patrouille fordert 'Wer da?'.",
+        "Lucile fasst Entschluss und ruft 'Es lebe der König!'.",
+        "Bürger der Patrouille ruft 'Im Namen der Republik!' – Verhaftung, Abführung."
+      ],
+      "status_vor_der_szene": "Hinrichtungen der Hauptfiguren sind abgeschlossen, Henker und Apparat stehen noch im Raum.",
+      "aenderung_nach_der_szene": "Lucile wird vermutlich selbst zum Opfer des Terrors; der Kreis der Vernichtung schließt sich. Das Stück endet mit der Mechanik der Republik, nicht mit einem heroischen Schlussbild.",
+      "buehnenbild_cues": [
+        "Die gleiche Guillotine wie in 4.7, jetzt leer, mit Blutspuren.",
+        "Abendliches oder mondbeschienenes Licht, leere Bühne bis auf Henker und später Lucile.",
+        "Patrouille tritt erst spät ein, um Luciles Schrei zu schneiden."
+      ]
+    }
+  ]
+}
