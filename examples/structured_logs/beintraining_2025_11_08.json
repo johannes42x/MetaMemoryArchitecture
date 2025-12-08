@@ -1,0 +1,365 @@
+{
+  "_meta": {
+    "schema": "beine_v1",
+    "beschreibung": "Knieschonendes funktionales Beintraining ohne Maschinen, mit Expander-Option. Ziel: Ausgleich zum Ergometer, Aufbau von Kraft, Stabilität und Gleichgewicht.",
+    "regeln": {
+      "id_format": "BEINE-###",
+      "id_fortlaufend": true,
+      "id_zero_padded": 3,
+      "append_only": true,
+      "time_format": "HH:MM:SS",
+      "unknown_is_null": true
+    },
+    "template": {
+      "entry_id": "BEINE-###",
+      "datum": "YYYY-MM-DD",
+      "bereich": "beine",
+      "dauer_gesamt_min": null,
+      "uebungen": [],
+      "notizen": [],
+      "anhang": []
+    },
+    "routine": [
+      {
+        "name": "Wall Sit (Wandsitz)",
+        "saetze": 3,
+        "haltezeit_s": 30,
+        "pause_s": 30,
+        "kurzanleitung": "Rücken an Wand, Knie 90°, ruhig atmen, Po anspannen.",
+        "fokus": "Quadrizeps, Core isometrisch, knieschonend."
+      },
+      {
+        "name": "Glute Bridge (Hüftbrücke)",
+        "saetze": 3,
+        "wdh": 15,
+        "haltezeit_oben_s": 2,
+        "pause_s": 35,
+        "kurzanleitung": "Fersen in Boden drücken, Hüfte heben bis Linie Schulter–Knie, 2 s halten, langsam senken.",
+        "fokus": "Gesäß, Beinrückseite, Core."
+      },
+      {
+        "name": "Single-Leg Hip Hinge",
+        "saetze": 3,
+        "wdh_pro_bein": 10,
+        "haltezeit_oben_s": 1,
+        "pause_s": 40,
+        "kurzanleitung": "Standbein leicht gebeugt, Oberkörper & freies Bein bilden Linie, 1 s halten, über Ferse aufrichten.",
+        "fokus": "Beinbeuger, Gluteus, Gleichgewicht."
+      },
+      {
+        "name": "Standing Calf Raise",
+        "saetze": 3,
+        "wdh": 20,
+        "haltezeit_oben_s": 2,
+        "pause_s": 30,
+        "kurzanleitung": "Langsam auf Zehenspitzen heben, 2 s halten, kontrolliert senken.",
+        "fokus": "Waden (Gastrocnemius, Soleus), Stabilität, Elastizität."
+      },
+      {
+        "name": "Standing Hip Abduction",
+        "saetze": 2,
+        "wdh_pro_bein": 12,
+        "haltezeit_oben_s": 1,
+        "pause_s": 30,
+        "kurzanleitung": "Leicht an Wand halten, Bein seitlich anheben, 1 s halten, langsam senken.",
+        "fokus": "Gluteus medius, Hüftstabilisatoren."
+      }
+    ],
+    "kommentar": "Wohnungstaugliche Beinroutine, 15–18 Min Gesamtdauer, ideal nach Core oder samstags.",
+    "letzte_vergebene_id": "BEINE-004"
+  },
+  "eintraege": [
+    {
+      "entry_id": "BEINE-001",
+      "datum": "2025-10-29",
+      "bereich": "beine",
+      "dauer_gesamt_min": 18,
+      "uebungen": [
+        {
+          "name": "Wall Sit (Wandsitz)",
+          "saetze": 3,
+          "haltezeiten_s": [
+            30,
+            30,
+            30
+          ],
+          "anmerkung": "Starker Reiz vordere Oberschenkel; kniefreundlich, aber intensiv."
+        },
+        {
+          "name": "Glute Bridge (Hüftbrücke)",
+          "saetze": 3,
+          "wdh": [
+            15,
+            15,
+            15
+          ],
+          "anmerkung": "Kräftige Ausführung; gleich wie im Coretraining, deutlicher Po- und Beinreiz."
+        },
+        {
+          "name": "Single-Leg Hip Hinge",
+          "saetze": 3,
+          "wdh_pro_bein": [
+            10,
+            10,
+            10
+          ],
+          "anmerkung": "Starker Gleichgewichtsreiz, Dehnung in Beinrückseite deutlich spürbar."
+        },
+        {
+          "name": "Standing Calf Raise",
+          "saetze": 3,
+          "wdh": [
+            20,
+            20,
+            20
+          ],
+          "anmerkung": "Sehr gutes Gefühl; intensiver Wadenreiz, perfekt auch im Alltag wiederholbar."
+        },
+        {
+          "name": "Standing Hip Abduction",
+          "saetze": 2,
+          "wdh_pro_bein": [
+            12,
+            12
+          ],
+          "anmerkung": "Kräftiger Brennreiz seitlich an Hüfte; Standbein arbeitet stark mit."
+        }
+      ],
+      "notizen": [
+        "Erste Beintrainingseinheit, sehr gute Übungsauswahl.",
+        "Gesamtgefühl stabil, Koordination fordernd.",
+        "Leichter Muskelkater erwartet, keine Beschwerden."
+      ]
+    },
+    {
+      "entry_id": "BEINE-002",
+      "datum": "2025-11-01",
+      "bereich": "beine",
+      "dauer_gesamt_min": 41.03,
+      "uebungen": [
+        {
+          "name": "Wall Sit (Wandsitz)",
+          "saetze": 3,
+          "haltezeiten_s": [
+            30,
+            30,
+            30
+          ],
+          "anmerkung": "Sehr anstrengend; stärkste Belastung aller Übungen. Isometrische Maximalkraft, starkes Brennen vordere Oberschenkel."
+        },
+        {
+          "name": "Glute Bridge (Hüftbrücke)",
+          "saetze": 3,
+          "wdh": [
+            15,
+            15,
+            15
+          ],
+          "anmerkung": "Technisch leicht, vermutlich zu hoch gedrückt; korrigiert in Folgesessions. Fokus auf Po-Aktivierung."
+        },
+        {
+          "name": "Single-Leg Hip Hinge",
+          "saetze": 3,
+          "wdh_pro_bein": {
+            "links": [
+              10,
+              10,
+              10
+            ],
+            "rechts": [
+              10,
+              10,
+              10
+            ]
+          },
+          "anmerkung": "Mehr Stabilität als vorherige Session; bei Wacklern kurz abgestützt und Spannung gehalten. Guter Gleichgewichtseffekt."
+        },
+        {
+          "name": "Standing Calf Raise",
+          "saetze": 3,
+          "wdh": [
+            20,
+            20,
+            20
+          ],
+          "anmerkung": "Ruhig ausgeführt, gleichmäßig. Spürbarer Reiz in Waden; elastischer Abdruck."
+        },
+        {
+          "name": "Standing Hip Abduction",
+          "saetze": 2,
+          "wdh_pro_bein": {
+            "links": [
+              12,
+              12
+            ],
+            "rechts": [
+              12,
+              12
+            ]
+          },
+          "anmerkung": "Stabil, ohne Schwung. Hüfte ruhig gehalten, Gluteus medius sauber getroffen."
+        }
+      ],
+      "notizen": [
+        "Training vollständig abgeschlossen, keine Pausenverluste.",
+        "Gesamtzeit 41:02 Min (Uhr), aktiver Kalorienverbrauch 156 kcal.",
+        "Wall Sit weiterhin sehr fordernd, Gleichgewicht deutlich stabiler.",
+        "Rückenreaktion in Glute Bridge erkannt, korrigierbar über geringere Hüfthöhe."
+      ],
+      "quelle": "Redmi Watch 3 (Trainingsmodus: Unterkörper)"
+    },
+    {
+      "entry_id": "BEINE-003",
+      "datum": "2025-11-05",
+      "bereich": "beine",
+      "dauer_gesamt_min": 32.8,
+      "kcal_aktiv": 161,
+      "uebungen": [
+        {
+          "name": "Wall Sit (Wandsitz)",
+          "saetze": 3,
+          "haltezeiten_s": [
+            30,
+            30,
+            30
+          ],
+          "anmerkung": "Sehr stabile Ausführung, kein Zittern; gleichmäßige Spannung, kein Kniezug."
+        },
+        {
+          "name": "Glute Bridge (Hüftbrücke)",
+          "saetze": 3,
+          "wdh": [
+            15,
+            15,
+            15
+          ],
+          "anmerkung": "Linie Schulter–Knie gehalten, Fokus Po-Aktivierung, keine Überstreckung."
+        },
+        {
+          "name": "Single-Leg Hip Hinge",
+          "saetze": 3,
+          "wdh_pro_bein": {
+            "links": [
+              10,
+              10,
+              10
+            ],
+            "rechts": [
+              10,
+              10,
+              10
+            ]
+          },
+          "anmerkung": "Gleichgewicht stabil, klare Dehnung in Beinrückseite, kein Zug im Rücken."
+        },
+        {
+          "name": "Standing Calf Raise",
+          "saetze": 3,
+          "wdh": [
+            20,
+            20,
+            20
+          ],
+          "anmerkung": "Sauber und rhythmisch, kräftiger Wadenreiz, kein Schwanken."
+        },
+        {
+          "name": "Standing Hip Abduction",
+          "saetze": 2,
+          "wdh_pro_bein": {
+            "links": [
+              12,
+              12
+            ],
+            "rechts": [
+              12,
+              12
+            ]
+          },
+          "anmerkung": "Starker Reiz an Hüftseite, Standbein aktiv, gute Kontrolle."
+        }
+      ],
+      "notizen": [
+        "Gesamtdauer laut Uhr: 32:48 min, 161 kcal aktiv.",
+        "Sehr saubere Technik, keine Beschwerden.",
+        "Abfolge jetzt automatisiert und fließend.",
+        "Cool-Down ausgelassen, Fußtraining + Yoga folgen direkt im Anschluss."
+      ]
+    },
+    {
+      "entry_id": "BEINE-004",
+      "datum": "2025-11-08",
+      "bereich": "beine",
+      "dauer_gesamt_min": 32.47,
+      "kcal_aktiv": 143,
+      "uebungen": [
+        {
+          "name": "Wall Sit (Wandsitz)",
+          "saetze": 3,
+          "haltezeiten_s": [
+            30,
+            30,
+            30
+          ],
+          "anmerkung": "Ging deutlich besser als letzte Einheit; spürbar stabiler und weniger Brennreiz."
+        },
+        {
+          "name": "Glute Bridge (Hüftbrücke)",
+          "saetze": 3,
+          "wdh": [
+            15,
+            15,
+            15
+          ],
+          "anmerkung": "Technik korrigiert: kein Druck im Rücken, Fokus auf Po-Aktivierung, Linie Schulter–Knie eingehalten."
+        },
+        {
+          "name": "Single-Leg Hip Hinge",
+          "saetze": 3,
+          "wdh_pro_bein": {
+            "rechts": [
+              10,
+              10,
+              10
+            ],
+            "links": [
+              10,
+              10,
+              10
+            ]
+          },
+          "anmerkung": "Rechts kontrolliert, links noch leicht wacklig, aber enorme Fortschritte gegenüber erster Einheit."
+        },
+        {
+          "name": "Standing Calf Raise",
+          "saetze": 3,
+          "wdh": [
+            20,
+            20,
+            20
+          ],
+          "anmerkung": "Sehr saubere Ausführung, gute Spannung und Brenngefühl; Lieblingsübung, Potenzial für Progression."
+        },
+        {
+          "name": "Standing Hip Abduction",
+          "saetze": 2,
+          "wdh_pro_bein": {
+            "rechts": [
+              12,
+              12
+            ],
+            "links": [
+              12,
+              12
+            ]
+          },
+          "anmerkung": "Kontrolliert und gleichmäßig, Hüfte stabil, leichter Brennreiz wie gewünscht."
+        }
+      ],
+      "notizen": [
+        "Gesamtdauer laut Uhr 32:28 min, 143 kcal aktiv.",
+        "Technisch sauberste Beintrainingseinheit bisher; Koordination und Muskelgefühl stark verbessert.",
+        "Deutlicher Fortschritt bei Balance (v. a. linkes Standbein) und Po-Aktivierung."
+      ]
+    }
+  ]
+}
