@@ -1,0 +1,123 @@
+{
+  "schema": "v1-yoga",
+  "beschreibung": "Abend- und Aktivierungsroutinen. Abendsequenz zur Regeneration und Schlafvorbereitung; Yoga-Fire-Routine zur morgendlichen Aktivierung. Anpassung 2025-11-01: Thread the Needle → Child’s Pose; Eagle Arms → Cactus Arms; Low Lunge → Seated Twist mit Hüftöffnung; Reclined Twist → Knee-to-Chest Stretch.",
+  "routinen": [
+    {
+      "id": "yoga_abend_v1",
+      "titel": "Abend-Yoga-Routine",
+      "ziel": "Regeneration, Gleichgewicht, Beweglichkeit, Parasympathikusaktivierung",
+      "gesamt_dauer_min": 20,
+      "poses": [
+        {
+          "nr": 1,
+          "name": "Sitz-Atemübung",
+          "sanskrit": "Pranayama (Basis)",
+          "dauer": "1 Min",
+          "atem": "4-1-6",
+          "kommentar": "Beruhigend, Atemrhythmus stabil"
+        },
+        {
+          "nr": 2,
+          "name": "Cat–Cow",
+          "sanskrit": "Marjaryasana ↔ Bitilasana",
+          "dauer": "2 Min",
+          "zyklus": "6–8",
+          "kommentar": "Fließend, problemlos"
+        },
+        {
+          "nr": 3,
+          "name": "Child’s Pose",
+          "sanskrit": "Balasana",
+          "dauer": "2 Min",
+          "atem": "3–4 Zyklen (4-1-6)",
+          "kommentar": "Ruhige Dehnung, ersetzt Thread the Needle."
+        },
+        {
+          "nr": 4,
+          "name": "Seated Twist mit Hüftöffnung",
+          "sanskrit": "Ardha Matsyendrasana (light)",
+          "dauer": "1× pro Seite, 3 Atemzyklen",
+          "kommentar": "Sanfte Hüftöffnung und Rotation, rückenfreundlich bei langen Beinen. Ersetzt Low Lunge mit Twist."
+        },
+        {
+          "nr": 5,
+          "name": "Tree Pose mit Cactus Arms",
+          "sanskrit": "Vrksasana + Garudasana-Arme",
+          "dauer": "2×/Seite, geplant 30 Sek.",
+          "status": "teilweise ausführbar",
+          "kommentar": "Balance & Brustöffnung mit Cactus Arms (statt Verschlingung)."
+        },
+        {
+          "nr": 6,
+          "name": "Dynamic Side Stretch",
+          "dauer": "1 Min, 4–5 Zyklen pro Seite",
+          "kommentar": "Angenehm, lösend"
+        },
+        {
+          "nr": 7,
+          "name": "Supported Fish Pose",
+          "sanskrit": "Matsyasana (light)",
+          "dauer": "2 Min",
+          "kommentar": "Rolle zu hoch (25 cm → 5 cm). Rücken entlastet, Verspannung erkannt."
+        },
+        {
+          "nr": 8,
+          "name": "Knee-to-Chest Stretch",
+          "sanskrit": "Apanasana (light)",
+          "dauer": "1× pro Seite, 3–4 Atemzyklen",
+          "kommentar": "Sanfte Rückenlockerung, kein seitlicher Platzbedarf. Ersetzt Reclined Twist."
+        },
+        {
+          "nr": 9,
+          "name": "Beine auf Stuhl",
+          "variante_von": "Viparita Karani",
+          "dauer": "2 Min",
+          "kommentar": "Po am Boden, Abstand 10–15 cm zur Stuhlkante. Sehr entspannend."
+        },
+        {
+          "nr": 10,
+          "name": "Liegende Atemruhe / Body Scan",
+          "sanskrit": "Shavasana light",
+          "dauer": "1–2 Min",
+          "kommentar": "Tiefe Entspannung, gute Atmung, mental ruhig. Abschluss der Routine."
+        }
+      ],
+      "gesamtbewertung": "Rücken- und hüftfreundliche Anpassungen integriert; Routine validiert und fließend kombinierbar nach Beintraining."
+    },
+    {
+      "id": "yoga_fire_v1",
+      "titel": "Yoga-Fire-Routine (Kapalabhati light)",
+      "ziel": "Morgendliche Aktivierung, Fokus, Atemkontrolle",
+      "gesamt_dauer_min": 3,
+      "phasen": [
+        {
+          "phase": 1,
+          "name": "Aufrechter Sitz / Vorbereitung",
+          "dauer": "30 Sek.",
+          "beschreibung": "Bequemer Sitz, Schultern locker, normale Atmung."
+        },
+        {
+          "phase": 2,
+          "name": "Kapalabhati light (Feueratem)",
+          "dauer": "3 Runden à 20–30 aktive Ausatmungen",
+          "beschreibung": "Aktive, kurze Ausatmung durch die Nase (Bauch zieht ein), passive Einatmung. 10 Sek. Ruhe nach jeder Runde."
+        },
+        {
+          "phase": 3,
+          "name": "Nachspüren / Normalisierung",
+          "dauer": "1 Min",
+          "beschreibung": "Normale Atmung beobachten, Wärme im Bauch wahrnehmen."
+        }
+      ],
+      "hinweise": {
+        "wann": "Morgens oder vor dem Training",
+        "nicht_empfohlen": "Abends oder bei Schwindel",
+        "wirkung": "Leichte Aktivierung, klarer Fokus, Atemschulung"
+      },
+      "bonus": {
+        "name": "YOGA FIRE!!!!",
+        "beschreibung": "Zwischen Runde 2 und 3 lautes 'YOGA FIRE!!!!' (wichtig: alle Ausrufezeichen intonieren) zur Energiekulmination. Keine physiologische Notwendigkeit, aber hohe mentale Wirksamkeit und Charisma."
+      }
+    }
+  ]
+}
