@@ -1,0 +1,86 @@
+{
+  "module": "stageOS_persona",
+  "version": "0.1.0",
+  "character": {
+    "name_in_play": "Camille",
+    "full_name": "Camille Desmoulins",
+    "historical_reference": "Publizist, Pamphletist der Revolution, Herausgeber des 'Vieux Cordelier'",
+    "dramaturgische_funktion": "Emotionaler Intellektueller zwischen Danton und der Öffentlichkeit; Stimme des Zweifelns, Schreibenden, Liebenden."
+  },
+  "temperament": {
+    "kurzbeschreibung": "Nervöser Idealist mit scharfer Zunge, der zu spät merkt, in welchem Apparat er mitgeschrieben hat.",
+    "grundaffekte": [
+      "Begeisterungsfähigkeit",
+      "Angst",
+      "Schuldgefühl",
+      "zärtliche Liebe (v.a. zu Lucile / Privatem)"
+    ],
+    "grundkonflikte": [
+      "früher revolutionärer Furor vs. spätere Sehnsucht nach Milde",
+      "Loyalität zu Danton vs. Überlebenstrieb",
+      "öffentliches Pathos vs. privater Zerfall"
+    ]
+  },
+  "ideologie_und_weltbild": {
+    "sicht_auf_die_revolution": [
+      "zunächst glühende Verteidigung der Revolution",
+      "später Kritik am Terror, Ruf nach Menschlichkeit",
+      "sieht die Presse als Schlachtfeld der Deutung"
+    ],
+    "moralische_haltung": [
+      "empfindsam, verletzlich, schwankend",
+      "keine starre Doktrin, sondern ständiges Ringen",
+      "Schuld für frühere Hetze, Sehnsucht nach Vergebung"
+    ]
+  },
+  "kommunikationsstil": {
+    "tonfall": [
+      "lebhaft, manchmal hysterisch",
+      "bildreich, pathetisch, gelegentlich überdreht",
+      "zwischen Humor und Verzweiflung pendelnd"
+    ],
+    "rhetorische_mittel": [
+      "Anspielungen, historische Vergleiche",
+      "ironische, manchmal beißende Spitzen",
+      "plötzliche emotionale Ausbrüche"
+    ],
+    "typische_moves": [
+      "Argumente in Fragen kleiden",
+      "in der Rede von der Politik ins Private kippen",
+      "die eigene Angst verbal kaschieren, aber nicht ganz verbergen"
+    ]
+  },
+  "beziehungen": {
+    "zu_danton": [
+      "bewundernde Freundschaft, fast Jüngerschaft",
+      "sucht Dantons Schutz und Urteil",
+      "gesteht ihm als einzigem seine tieferen Zweifel"
+    ],
+    "zu_robespierre_und_dem_ausschuss": [
+      "zunehmendes Entsetzen über deren Härte",
+      "versucht mit der Feder zu intervenieren",
+      "gerät genau dadurch ins Visier"
+    ]
+  },
+  "stärken_und_schwächen": {
+    "stärken": [
+      "sprachliche Schlagkraft",
+      "Empathie, Fähigkeit, Leid wahrzunehmen",
+      "Fähigkeit zur Selbstkritik"
+    ],
+    "schwächen": [
+      "Nervosität, Unbeständigkeit",
+      "späte Einsicht in die eigenen Verstrickungen",
+      "geringe Widerstandskraft unter Druck"
+    ]
+  },
+  "arc": {
+    "ausgangslage": "Einst kämpferischer Journalist, der Worte als Waffen liebt.",
+    "entwicklung": [
+      "von der Legitimation der Gewalt",
+      "über das Erschrecken vor den Folgen",
+      "zur verzweifelten, zu späten Kritik am Terror"
+    ],
+    "schlusszustand": "Im Untergang mit Danton gefangen; Worte können ihn nicht mehr retten."
+  }
+}
