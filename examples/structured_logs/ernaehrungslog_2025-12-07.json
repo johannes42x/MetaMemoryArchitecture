@@ -1,0 +1,65 @@
+{
+  "meta_hinweis_oben": "WICHTIG: Am Ende der Datei steht der Marker [ENDE DER DATEI]. Wenn er nicht erscheint, ist die Datei unvollst\u00e4ndig geladen.",
+  "module": "nutritionOS",
+  "submodule": "ernaehrungslog",
+  "version": "0.9.0",
+  "schema": "ernaehrungslog_v1",
+  "meta": {
+    "schema": "ernaehrungslog_v1",
+    "beschreibung": "Ern\u00e4hrungslog mit Tages-Eintr\u00e4gen, jeweils inkl. Makro-Bilanz, Pflanzenvielfalt und Obst/Gem\u00fcseportionen.",
+    "letzte_vergebene_id": "LOG-001",
+    "datum_letzter_eintrag": "07-12-2025",
+    "notizen": ""
+  },
+  "eintraege": [
+    {
+      "id": "LOG-000",
+      "datum": "TT-MM-JJJJ",
+      "liste_von_eintraegen": [
+        "Lebensmittel oder Mahlzeit (kcal, g Protein, g Fett, g Kohlenhydrate)"
+      ],
+      "summen_kcal": null,
+      "summen_protein_g": null,
+      "summen_fett_g": null,
+      "summen_kohlenhydrate_g": null,
+      "summen_ballaststoffe_g": null,
+      "pflanzenvielfalt_heute": null,
+      "obst_gemuese_portionen": null,
+      "tdee_und_bilanz": {
+        "tdee_kcal": null,
+        "abweichung_kcal": null
+      },
+      "notizen": ""
+    },
+    {
+      "id": "LOG-001",
+      "datum": "07-12-2025",
+      "liste_von_eintraegen": [
+        "1 Banane (105 kcal, 1.2 g Protein, 0.3 g Fett, 24 g Kohlenhydrate) [Sch\u00e4tzung]",
+        "1 Shake (322 kcal, 28 g Protein, 9.8 g Fett, 29.9 g Kohlenhydrate)",
+        "400 g Skyr ohne Zucker + 35 g Pistazienmus + 1 TL Ahornsirup (491 kcal, 31 g Protein, 33 g Fett, 9 g Kohlenhydrate) [Pistazienmus gesch\u00e4tzt]",
+        "2 TL Chiasamen (49 kcal, 1.7 g Protein, 3.1 g Fett, 4 g Kohlenhydrate)",
+        "1 TL Flohsamenschalen (5 kcal, 0 g Protein, 0 g Fett, 2 g Kohlenhydrate)",
+        "1 Shake (322 kcal, 28 g Protein, 9.8 g Fett, 29.9 g Kohlenhydrate)",
+        "400 g Heidelbeeren (228 kcal, 2.8 g Protein, 1.2 g Fett, 58 g Kohlenhydrate) [Sch\u00e4tzung]",
+        "1 Porridge mit Banane & Nussmus (530 kcal, 14 g Protein, 14 g Fett, 95 g Kohlenhydrate) [aus Kochbuch-Referenz]",
+        "300 g Tomaten (54 kcal, 2.7 g Protein, 0.6 g Fett, 12 g Kohlenhydrate) [Sch\u00e4tzung]",
+        "1 Shake (322 kcal, 28 g Protein, 9.8 g Fett, 29.9 g Kohlenhydrate)",
+        "1 Goldene Milch (170 kcal, 3 g Protein, 7 g Fett, 22 g Kohlenhydrate)"
+      ],
+      "summen_kcal": 2600,
+      "summen_protein_g": 140,
+      "summen_fett_g": 89,
+      "summen_kohlenhydrate_g": 316,
+      "summen_ballaststoffe_g": 35,
+      "pflanzenvielfalt_heute": 10,
+      "obst_gemuese_portionen": 7,
+      "tdee_und_bilanz": {
+        "tdee_kcal": 2780,
+        "abweichung_kcal": -180
+      },
+      "notizen": "Erk\u00e4ltet. N\u00e4hrwerte teilweise gesch\u00e4tzt."
+    }
+  ],
+  "[ENDE DER DATEI]": true
+}
