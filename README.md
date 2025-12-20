@@ -1,7 +1,8 @@
 # 📘 README.md — MetaMemoryArchitecture
 **Version: v1.0** 
 **Copyright (c) 2025 — Johannes Glaser** 
-**Contact: johannes.glaser@metamemoryworks.de**
+**Contact: kontakt@metamemoryworks.de / contact@metamemoryworks.com**
+**Licensing: lizenz@metamemoryworks.de / licensing@metamemoryworks.com**
 
 ## 🧠 Overview
 
@@ -207,5 +208,6 @@ It does not provide or replace professional legal, medical, or psychological adv
 
 For licensing requests, collaboration, or commercial partnerships:
 
-**Email:** johannes.glaser@metamemoryworks.de 
 **Author:** Johannes Glaser
+**Contact: kontakt@metamemoryworks.de / contact@metamemoryworks.com**
+**Licensing: lizenz@metamemoryworks.de / licensing@metamemoryworks.com**
