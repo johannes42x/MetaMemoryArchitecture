@@ -1,213 +1,279 @@
-# 📘 README.md — MetaMemoryArchitecture
-**Version: v1.0** 
-**Copyright (c) 2025 — Johannes Glaser** 
-**Contact: kontakt@metamemoryworks.de / contact@metamemoryworks.com**
-**Licensing: lizenz@metamemoryworks.de / licensing@metamemoryworks.com**
+# MetaMemoryArchitecture
 
-## 🧠 Overview
+MetaMemoryArchitecture defines a formal, file-based method for persistent
+memory in large language model (LLM) systems.
 
-**MetaMemoryArchitecture** is a file-based, persistent memory method for large language models (LLMs) and agentive AI systems. 
-It defines:
+It specifies how external documents — often structured in machine-oriented
+formats such as JSON, but designed to remain human-readable and editable —
+can function as durable, interpretable state that remains available across
+sessions, runtimes, and model changes.
 
-- a **procedure** (the abstract, reproducible method), and 
-- a **product** (the concrete structures, formats, and engine logic that enable the method).
+The method is independent of any specific LLM, provider, or execution
+environment and forms the architectural foundation of the
+MetaMemoryWorks ecosystem.
 
-The architecture enables LLMs to interpret external documents as stable memory instances, allowing consistent behavior across sessions, tools, runtimes, and models.
+This repository documents the abstract method, its core principles, and
+the associated specifications required to implement persistent memory
+systems using MetaMemoryArchitecture.
 
-This repository documents the procedure, the system design, the associated formats, and the full prior art required to establish authorship and method protection.
+---
 
-A separate license file governs usage.
+## Purpose of the Method
 
-## 🎯 Purpose of the Method
+Modern LLMs do not possess inherent long-term memory.
+State is tied to individual interactions, tool calls, or execution
+contexts and is typically lost once a session ends.
 
-Modern LLMs lack inherent long-term memory. 
-MetaMemoryArchitecture provides:
+MetaMemoryArchitecture addresses this limitation by defining a method
+for representing memory externally in a way that remains stable,
+interpretable, and reusable over time.
 
-1. **Persistence** — memory survives beyond any single model invocation. 
-2. **Reproducibility** — state can be reconstructed deterministically from files. 
-3. **Cross-system stability** — the memory layer works across models, APIs, runtimes, and environments. 
-4. **Modularity** — the architecture supports single-file and multi-file memory systems. 
-5. **Interpretive consistency** — the structure of the files enables an LLM to interpret them coherently.
+By storing state in explicit files, the method enables persistence
+beyond individual model invocations, allows system state to be
+reconstructed deterministically, and decouples memory from any specific
+model, provider, or runtime environment.
 
-The method is suitable for personal assistants, OS-like subsystems, multi-agent setups, synthetic personas, and a wide range of structured knowledge applications.
+The same method supports both simple and complex setups, ranging from
+single-file memory objects to multi-file and multi-subsystem
+architectures. Because the structure of the memory is explicit, LLMs can
+interpret it consistently rather than relying on implicit or transient
+context.
 
-## 🧱 Core Principles of the Memory Architecture
+As a result, MetaMemoryArchitecture can be used as a foundational memory
+layer for personal assistants, OS-like subsystems, long-running
+analytical workflows, synthetic personas, and other systems that require
+durable, interpretable state.
+
+---
+
+## Scope of This Repository
+
+This repository focuses on documenting the MetaMemoryArchitecture method
+at an abstract and architectural level.
+
+It describes the principles, constraints, and structural conventions
+that define the method. Concrete applications of the architecture — including working systems,
+examples, and domain-specific structures — are documented in separate
+MetaMemoryWorks module repositories (such as scanOS, noteOS, or
+trainingOS).
+
+This separation is intentional. The purpose of this repository is to
+serve as a stable reference for the method itself, independent of any
+particular implementation or use case.
+
+---
+
+## Core Principles of the Memory Architecture
+
+The MetaMemoryArchitecture method is built around a small set of
+foundational principles that define how persistent memory is represented,
+interpreted, and evolved over time.
 
 ### 1. External files as primary memory
 
-Memory is stored in external, user-controlled files. 
-These files act as ground-truth state, independent of the LLM’s internal context.
+All persistent memory is stored in external, user-controlled files.
+These files constitute the system’s ground-truth state and exist
+independently of any LLM’s internal or transient context.
+
+The language model does not “own” the memory. It reads, interprets, and
+operates on state that is explicitly represented outside the model itself.
 
 ### 2. Two valid classes of memory files
 
-The procedure supports two independent and equally valid classes of persistent memory files:
+The method supports two independent and equally valid classes of
+persistent memory files. Either class can be used on its own, or both can
+be combined within the same system.
 
-#### A) Structured Log Memory Files
-Designed for chronological data (e.g., nutrition, training, sleep, measurements). 
-They *may*, but do not have to, include:
+#### A) Structured log memory files
 
-- metadata (version, schema, last entry, status) 
-- identifiable or sequential entry IDs 
-- append-only constraints 
-- EOF consistency markers 
-- validation segments 
+Structured log files are designed for chronological or incremental data,
+such as training records, nutrition logs, measurements, or activity
+histories.
 
-Any functionally equivalent variant is part of the method; none of these elements are mandatory.
+Depending on the use case, such files may include elements like metadata,
+entry identifiers, append-only constraints, consistency markers, or
+validation segments. None of these elements are mandatory. Any
+functionally equivalent structure that preserves interpretable state over
+time is considered a valid instance of the method.
 
-#### B) Document-based Memory Files
-Files storing structured or semi-structured data objects (e.g., personas, profiles, scenes, parameters, contracts, notes). 
-These files:
+#### B) Document-based memory files
 
-- may contain hierarchical or nested structures, 
-- may contain semantic fields (traits, goals, styles, rules), 
-- may include relational elements or embedded contexts, 
-- may — but do not have to — produce emergent interpretive effects when used by an LLM, 
-- do *not* require IDs, logs, metadata, or normalization.
+Document-based memory files store structured or semi-structured data
+objects, such as engines, personas, profiles, scenes, parameters, contracts, or
+notes.
 
-The only requirement is that they provide a **purpose-appropriate data layout** that an LLM can interpret consistently.
+These files may contain hierarchical structures, semantic fields, or
+embedded contextual relationships. They do not require identifiers,
+logging semantics, or normalization rules. Their only requirement is that
+they provide a purpose-appropriate layout that allows an LLM to interpret
+their content consistently.
 
-Either class alone, or both in combination, constitutes a valid implementation of the method.
+Some document-based memory files may give rise to emergent interpretive
+effects when used in combination, but such effects are incidental rather
+than required.
 
 ### 3. Interpretive ability
 
-The method does not prescribe or constrain LLM internals. 
-Instead, it defines file structures that **enable** an LLM to:
+MetaMemoryArchitecture does not prescribe or constrain the internal
+mechanisms of language models. Instead, it defines external structures
+that enable models to interpret memory consistently, reconstruct working
+state from files, and align multiple memory objects or subsystems in a
+coherent manner.
 
-- interpret content consistently, 
-- reconstruct states from memory files, 
-- and align multiple memory files or subsystems coherently.
+Determinism is provided by the procedure and the structure of the memory,
+not by the model itself.
 
-Determinism lies in the procedure, not in the model.
+### 4. Single-file and multi-file architectures
 
-### 4. Single-file and Multi-file architectures (OR, not AND)
+The method supports a range of architectural layouts, including
+single-file systems in which one document represents the full memory,
+multi-file systems composed of several memory objects, and
+multi-subsystem setups in which multiple domain-specific modules coexist.
 
-The architecture supports:
-
-- **single-file systems** (a single document is the full memory), 
-- **multi-file systems** (a subsystem uses multiple memory objects), 
-- **multi-subsystem systems** (several OS-modules coexist), 
-- optional cross-file or cross-system emergence.
-
-Any of these modes qualifies as use of the method.
-
-Routing layers, templates, namespaces, or update engines **may** be used but are never required.
+These modes are alternatives, not requirements. Routing layers,
+templates, namespaces, or update engines may be used when helpful, but
+they are never mandatory components of the method.
 
 ### 5. Format-agnostic and system-agnostic design
 
-Memory files may exist in any format, including:
+Memory files may exist in a wide range of formats, including structured
+formats such as JSON or YAML, semi-structured text formats, or
+OCR-derived representations.
 
-- JSON 
-- TXT 
-- Markdown 
-- YAML 
-- TOML 
-- proprietary formats 
-- OCR-derived text 
-- future formats 
+The architecture is independent of model type, vendor, runtime
+environment, execution context, or integration strategy. Memory remains
+portable and interpretable across systems and over time.
 
-The architecture is independent of:
+---
 
-- model type 
-- vendor 
-- API or runtime 
-- local or cloud execution 
-- toolchain or integration method
+## High-Level Procedure
 
-## ⚙️ High-Level Procedure Description
+MetaMemoryArchitecture defines a conceptual procedure that describes how
+persistent memory is read, interpreted, and evolved over time. The steps
+outlined below describe the method at an abstract level rather than a
+specific implementation or execution engine.
 
-### Step 1 — Read
-Memory files are read in full or in chunks; incomplete structures may be detectable.
+**Read.**  
+Memory files are made available to the language model as part of its
+working context. Depending on size and structure, files may be read in
+full or in segments. Structural incompleteness or inconsistencies can be
+detected at this stage, but the method does not mandate a particular
+reading strategy.
 
-### Step 2 — Validate
-Depending on file class: 
-- logs may validate metadata, IDs, or EOF markers; 
-- documents may rely on semantic structure alone.
+**Validate.**  
+Validation depends on the class of memory file. Structured log files may
+be checked for elements such as metadata, identifiers, or consistency
+markers, while document-based memory files typically rely on their
+semantic structure alone. Validation is procedural rather than enforced
+by a fixed schema.
 
-### Step 3 — Reconstruct
-The LLM reads or interprets the file to reconstruct state or contextual meaning.
+**Reconstruct.**  
+Based on the available memory files, the LLM reconstructs working state
+or contextual meaning. This reconstruction is interpretive: the model
+derives its effective state from the structure and content of the files,
+not from hidden internal memory.
 
-### Step 4 — Extend (if applicable)
-Logs append new entries; document-based memory files are not edited directly but may serve as templates for generating updated or modified versions, or for producing new related objects.
+**Extend.**  
+When memory is updated, the procedure distinguishes between file classes.
+Log-based memory is typically extended through new entries, while
+document-based memory files are not modified in place. Instead, they may
+serve as templates for generating updated versions or new related
+documents.
 
-### Step 5 — Persist
-The updated memory becomes a new stable external state.
+**Persist.**  
+The resulting memory is written back as a new stable external state.
+Once persisted, it becomes part of the durable context available to
+future sessions, restarts, or model changes.
 
-These steps describe the **method**, not a specific implementation.
+These steps describe the logical flow of the method. They intentionally
+do not prescribe tooling, execution order, or implementation details.
 
-## 🧩 Components of the Architecture
+---
 
-- **Memory Objects** — logs or documents representing persistent knowledge. 
-- **Structuring Patterns** — templates, schemas, or informal structural conventions. 
-- **Normalization Approaches** — optional; used when beneficial, not required. 
-- **Processing Rules** — deterministic for logs; structurally interpretive for documents. 
-- **Subsystems** — coherent groups of memory files (e.g., trainingOS, workOS). 
-- **Emergent Behavior** — optional side-effect of interacting memory layers.
+## Components of the Architecture
 
-## 🗂 Repository Structure
+MetaMemoryArchitecture is composed of a small number of conceptual
+components that together define how persistent memory is represented
+and used.
 
-```
-/specification/
-    method_spec.md
-    file_classes.md
-    engine_principles.md
+At its core are memory objects, which may take the form of structured
+logs or document-based files and serve as durable representations of
+state. These objects are shaped by structuring patterns such as schemas,
+templates, or informal conventions that make their content interpretable
+to an LLM.
 
-/format/
-    json_examples.md
-    txt_examples.md
-    document_examples.md
+Depending on the use case, memory may be normalized or left intentionally
+unconstrained. Normalization is optional and applied only when it
+improves clarity or consistency, not as a requirement of the method.
 
-/prior_art/
-    development_history.md
+Processing rules govern how different kinds of memory are interpreted.
+Log-based memory follows deterministic update and interpretation rules,
+while document-based memory relies on structural and semantic coherence.
 
-/license/
-    (Restricted License will be placed here)
+Memory objects can be grouped into subsystems that represent coherent
+domains or workflows, such as training, work, or planning. When multiple
+memory layers or subsystems interact, higher-level or emergent behavior
+may arise as a side effect, but such behavior is neither assumed nor
+required.
 
-/examples/
-    sample_log_files/
-    sample_document_files/
+---
 
-README.md
-```
+## What This Architecture Enables
 
-## 🚀 What This Architecture Enables
+By externalizing memory into explicit, durable files,
+MetaMemoryArchitecture makes it possible to build LLM-based systems that
+retain coherence over time instead of resetting with each interaction.
 
-- persistent personal assistants 
-- reproducible AI workflows 
-- synthetic personas and narrative engines 
-- OS-like multi-module ecosystems 
-- LLM-driven automation tools 
-- agent systems with stable state 
-- cross-runtime and cross-model continuity
+In practice, this enables assistants that can accumulate knowledge,
+maintain context across sessions, and participate in long-running
+workflows without relying on hidden internal state. It also supports
+reproducible AI-driven processes, where prior decisions and intermediate
+results remain inspectable and recoverable.
 
-The method is the foundational memory layer used in systems such as:
+Because the method is modular and system-agnostic, it can serve as a
+foundation for a wide range of applications, including personal
+assistants, structured analytical workflows, synthetic personas,
+narrative or planning systems, and multi-module setups that resemble
+OS-like environments.
 
-- **trainingOS** 
-- **nutritionOS** 
-- **stageOS** 
-- **personaOS** 
-- **workOS** 
-- and future MetaMemoryWorks subsystems.
+The architecture is designed to remain stable across runtimes and model
+changes, allowing memory to persist even as execution environments or
+language models evolve.
 
-## 🔒 License Notice (placeholder)
+MetaMemoryArchitecture functions as the underlying memory layer for
+several MetaMemoryWorks systems, including trainingOS, nutritionOS,
+stageOS, personaOS, and related modules. Additional subsystems based on
+the same method can be added without changing the core architecture.
 
-A dedicated **MetaMemoryArchitecture Restricted License** will be provided in `/license/`. 
-It covers:
+---
 
-- permitted personal use, 
-- commercial licensing requirements, 
-- derivative-work rules, 
-- format- and media-shift applicability, 
-- prohibited categories (e.g., harmful or military use).
+## License
 
-## 🛡 Disclaimer
+MetaMemoryArchitecture is provided under a restricted license.
 
-This method provides structural rules for persistent memory systems. 
-It does not provide or replace professional legal, medical, or psychological advice.
+The license permits free private and personal use and defines separate
+terms for commercial or organizational use. It also specifies conditions
+for derivative works, format or media adaptations, and excluded use
+cases.
 
-## 📬 Contact
+The full license text is available in the `/license/` directory of this
+repository.
 
-For licensing requests, collaboration, or commercial partnerships:
+For licensing inquiries, please contact:
+- licensing@metamemoryworks.com
+- lizenz@metamemoryworks.de
 
-**Author:** Johannes Glaser
-**Contact: kontakt@metamemoryworks.de / contact@metamemoryworks.com**
-**Licensing: lizenz@metamemoryworks.de / licensing@metamemoryworks.com**
+---
+
+## Disclaimer
+
+This repository documents an architectural method for persistent memory
+in LLM-based systems. It does not provide professional legal, medical, or
+psychological advice.
+
+---
+
+## Contact
+
+**Author:** Johannes Glaser  
+**General contact:** contact@metamemoryworks.com / kontakt@metamemoryworks.de
